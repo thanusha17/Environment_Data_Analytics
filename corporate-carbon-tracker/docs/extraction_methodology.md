@@ -74,6 +74,14 @@ To parse unstructured and semi-structured PDF documents into tabular schemas, th
    - `CONS_KO`: Page 10 of *The Coca-Cola Company 2023 Business & Sustainability Report* (Table: Greenhouse Gas Emissions).
    - `HLTH_JNJ`: Page 30 of *Johnson & Johnson 2025 Health for Humanity Report* (Performance Data: Greenhouse Gas Emissions).
    - `IND_LMT`: Pages 36 & 37 of *Lockheed Martin 2025 Sustainability Performance Report* (Table: Emissions Performance Index, GRI 305-1, 305-2, 305-3).
+   - `AUTO_F`: Page 52 of *Ford Integrated Sustainability and Financial Report 2024* (GHG Emissions Table).
+   - `AUTO_TSLA`: Page 178 of *Tesla 2023 Impact Report* (GHG Summary Table).
+   - `HLTH_PFE`: Page 44 of *Pfizer 2023 Environmental, Social & Governance Report* (Climate & Energy Table).
+   - `CONS_NKE`: Page 104 of *Nike FY23 Impact Report* (Environmental Footprint).
+   - `IND_CAT`: Page 48 of *Caterpillar 2023 Sustainability Report* (GHG Performance Table).
+   - `TECH_IBM`: Page 24 of *IBM 2023 Impact Report & Environmental Performance Summary* (GHG Emissions Table).
+   - `RETL_WMT`: Page 38 of *Walmart 2023 ESG Summary Report* (GHG Emissions Table).
+   - `ENG_COP`: Page 52 of *ConocoPhillips 2023 Sustainability Report* (GHG Emissions Table).
 4. **Traceability Logging**: For every extracted observation, the pipeline records the exact source document name, page number, table heading, original reported unit, and third-party assurance opinion.
 
 ---

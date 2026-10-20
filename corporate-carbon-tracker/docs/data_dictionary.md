@@ -19,7 +19,7 @@
 | **1** | `company_id` | String | No | Alphanumeric | Internal unique identifier consisting of sector prefix and company ticker (e.g., `TECH_MSFT`, `ENG_XOM`, `AUTO_GM`). |
 | **2** | `company_name` | String | No | Text | Normalized legal corporate name matching regulatory registrations. |
 | **3** | `ticker_or_lei` | String | No | Alphanumeric | Primary equity stock ticker symbol (e.g., `MSFT`, `AAPL`, `GOOGL`). |
-| **4** | `sector` | String | No | Text | Industry sector classification based on Global Industry Classification Standard (GICS) categories (`Technology`, `Energy`, `Automotive`, `Technology / Retail`). |
+| **4** | `sector` | String | No | Text | Industry sector classification based on Global Industry Classification Standard (GICS) categories (`Technology`, `Technology / Retail`, `Automotive`, `Energy`, `Consumer Staples`, `Healthcare`, `Industrials`, `Consumer Discretionary`, `Retail & Consumer`). |
 | **5** | `reporting_year` | Integer | No | Year (YYYY) | Fiscal or reporting calendar year to which the emissions and financial turnover apply (`2019` to `2023`). |
 | **6** | `scope_1_tco2e` | Float | No | $tCO_2e$ | Direct greenhouse gas emissions resulting from on-site fossil fuel combustion, corporate vehicle fleets, and fugitive refrigerant losses. Harmonized to metric tonnes of $CO_2$ equivalent. |
 | **7** | `scope_2_location_tco2e` | Float | Yes | $tCO_2e$ | Indirect emissions calculated using the grid-average emission factor of the physical subregion where electricity is consumed. Retained strictly separate from market-based emissions. |
