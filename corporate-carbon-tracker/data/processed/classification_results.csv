@@ -1,0 +1,66 @@
+company_id,company_name,sector,reporting_year,carbon_intensity_tco2e_per_usd_m,actual_tier,pred_rf_tier,prob_rf_low,prob_rf_moderate,prob_rf_high,correct_rf,pred_xgb_tier,prob_xgb_low,prob_xgb_moderate,prob_xgb_high,correct_xgb
+AERO_BA,The Boeing Company,Aerospace & Defense,2023,41.5199,Moderate,Moderate,0.2574,0.3764,0.3662,True,High,0.2434,0.2892,0.4675,False
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2023,28.2515,Low,Moderate,0.3358,0.4608,0.2034,False,Moderate,0.3692,0.5604,0.0705,False
+AERO_RTX,RTX Corporation,Aerospace & Defense,2023,26.5525,Low,Moderate,0.325,0.3873,0.2877,False,Moderate,0.3037,0.4926,0.2038,False
+AUTO_F,Ford Motor Company,Automotive,2023,18.7864,Moderate,Moderate,0.2308,0.5006,0.2686,True,Moderate,0.1863,0.5476,0.2661,True
+AUTO_GM,General Motors Company,Automotive,2023,17.1257,Low,Moderate,0.21,0.5101,0.2799,False,Moderate,0.1852,0.5447,0.2701,False
+AUTO_TSLA,"Tesla, Inc.",Automotive,2023,74.4423,High,High,0.312,0.2283,0.4597,True,High,0.3571,0.2352,0.4077,True
+CONS_KO,The Coca-Cola Company,Consumer Staples,2023,108.1873,High,High,0.1553,0.2359,0.6088,True,High,0.1583,0.1685,0.6732,True
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2023,1.603,Low,Low,0.8815,0.0851,0.0334,True,Low,0.9478,0.0415,0.0107,True
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2023,51.8255,Low,Moderate,0.3006,0.4231,0.2762,False,Moderate,0.332,0.3506,0.3173,False
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2023,12.7864,Low,Moderate,0.3699,0.5217,0.1084,False,Low,0.5267,0.4509,0.0224,True
+CONS_UL,Unilever PLC,Consumer Staples,2023,52.4356,Low,Moderate,0.2831,0.412,0.3049,False,Low,0.3566,0.3248,0.3186,True
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2023,6.6327,Low,Moderate,0.3278,0.4031,0.2691,False,Moderate,0.3513,0.474,0.1747,False
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2023,148.8998,Moderate,High,0.216,0.2303,0.5537,False,High,0.1238,0.0897,0.7865,False
+ENG_COP,ConocoPhillips,Energy,2023,370.9657,High,High,0.2068,0.3387,0.4545,True,High,0.2699,0.2177,0.5125,True
+ENG_CVX,Chevron Corporation,Energy,2023,277.2798,Moderate,High,0.3127,0.322,0.3653,False,High,0.3335,0.1822,0.4842,False
+ENG_MPC,Marathon Petroleum Corporation,Energy,2023,186.1449,Low,Low,0.3464,0.314,0.3396,True,Low,0.436,0.3106,0.2534,True
+ENG_VLO,Valero Energy Corporation,Energy,2023,157.4955,Low,Low,0.387,0.2722,0.3408,True,Low,0.5048,0.2388,0.2564,True
+ENG_XOM,ExxonMobil Corporation,Energy,2023,281.5005,Moderate,Moderate,0.2488,0.3908,0.3604,True,High,0.1575,0.2437,0.5988,False
+FIN_BAC,Bank of America Corporation,Finance,2023,0.7395,Low,Low,0.8339,0.1424,0.0237,True,Low,0.8712,0.1096,0.0192,True
+FIN_C,Citigroup Inc.,Finance,2023,4.176,High,High,0.2147,0.3912,0.394,True,Moderate,0.1725,0.7295,0.0981,False
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2023,1.1588,Low,Low,0.8316,0.1332,0.0352,True,Low,0.8777,0.1021,0.0203,True
+FIN_JPM,JPMorgan Chase & Co.,Finance,2023,1.3029,Low,Low,0.6647,0.2326,0.1027,True,Low,0.8485,0.1268,0.0247,True
+FIN_WFC,Wells Fargo and Company,Finance,2023,3.9348,Moderate,Moderate,0.217,0.4183,0.3647,True,Moderate,0.1733,0.7329,0.0939,True
+HLTH_ABBV,AbbVie Inc.,Healthcare,2023,5.9281,Moderate,Moderate,0.3445,0.4889,0.1666,True,Moderate,0.2484,0.7074,0.0442,True
+HLTH_ABT,Abbott Laboratories,Healthcare,2023,31.913,Moderate,High,0.1203,0.3738,0.5059,False,Moderate,0.1449,0.4302,0.4249,True
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2023,4.3994,Low,Low,0.6737,0.2532,0.0732,True,Low,0.8465,0.142,0.0114,True
+HLTH_CVS,CVS Health Corporation,Healthcare,2023,311.7862,High,High,0.163,0.3108,0.5262,True,High,0.0944,0.1689,0.7367,True
+HLTH_JNJ,Johnson & Johnson,Healthcare,2023,5.4454,Low,Low,0.4803,0.3737,0.146,True,Low,0.6994,0.2765,0.0241,True
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2023,45.5793,High,High,0.2317,0.3517,0.4166,True,Low,0.3684,0.278,0.3535,False
+HLTH_PFE,Pfizer Inc.,Healthcare,2023,19.4446,Moderate,High,0.2173,0.3869,0.3958,False,Moderate,0.1435,0.5198,0.3367,True
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2023,0.3848,Low,Low,0.79,0.1665,0.0434,True,Low,0.8946,0.0957,0.0097,True
+IND_CAT,Caterpillar Inc.,Industrials,2023,24.754,Low,Low,0.5114,0.2997,0.1889,True,Low,0.6939,0.2397,0.0664,True
+IND_GE,GE Vernova Inc.,Industrials,2023,41.793,Moderate,High,0.2017,0.3764,0.4219,False,High,0.1303,0.4296,0.44,False
+IND_HON,Honeywell International Inc.,Industrials,2023,64.2249,Moderate,High,0.1979,0.3977,0.4045,False,High,0.1063,0.2973,0.5965,False
+IND_LMT,Lockheed Martin Corporation,Industrials,2023,10.0161,Low,Low,0.4672,0.332,0.2008,True,Low,0.6104,0.3175,0.0721,True
+IND_MMM,3M Company,Industrials,2023,180.4145,High,High,0.202,0.3941,0.4039,True,Moderate,0.1952,0.448,0.3569,False
+MAT_AA,Alcoa Corporation,Materials,2023,3307.7433,Moderate,High,0.1851,0.2589,0.5559,False,High,0.1034,0.1738,0.7228,False
+MAT_STLD,Steel Dynamics Inc.,Materials,2023,4824.7978,High,Low,0.3991,0.224,0.3769,False,High,0.1914,0.1043,0.7044,True
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2023,19.5505,High,High,0.1626,0.3183,0.519,True,High,0.1869,0.1755,0.6376,True
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2023,2.0579,Low,Low,0.6547,0.2856,0.0597,True,Low,0.7298,0.25,0.0201,True
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2023,673.9197,High,High,0.2607,0.3138,0.4255,True,Low,0.531,0.1974,0.2716,False
+MINE_NUE,Nucor Corporation,Mining & Metals,2023,300.7432,Low,High,0.2651,0.2065,0.5284,False,High,0.2539,0.1775,0.5686,False
+REIT_CBRE,CBRE Group Inc.,Real Estate,2023,2.9837,Low,Low,0.7251,0.2311,0.0438,True,Low,0.8811,0.0987,0.0202,True
+REIT_PLD,Prologis Inc.,Real Estate,2023,19.4429,Moderate,Moderate,0.4292,0.462,0.1088,True,Moderate,0.1119,0.8442,0.0439,True
+REIT_SPG,Simon Property Group Inc.,Real Estate,2023,63.441,Moderate,High,0.1183,0.2405,0.6412,False,High,0.0656,0.3126,0.6217,False
+RETL_WMT,Walmart Inc.,Retail & Consumer,2023,25.2525,Moderate,Moderate,0.1916,0.4304,0.3781,True,Moderate,0.1769,0.5122,0.3108,True
+RET_TGT,Target Corporation,Retail & Consumer,2023,26.0264,Moderate,Moderate,0.2433,0.3876,0.3691,True,High,0.1526,0.3478,0.4996,False
+TECH_AAPL,Apple Inc.,Technology,2023,0.1529,Low,Low,0.8549,0.1025,0.0426,True,Low,0.9619,0.0268,0.0113,True
+TECH_AMZN,Amazon.com Inc.,Technology,2023,29.5415,High,High,0.1702,0.2751,0.5547,True,High,0.1196,0.1928,0.6876,True
+TECH_CRM,Salesforce Inc.,Technology,2023,0.5327,Low,Low,0.9226,0.0568,0.0206,True,Low,0.9369,0.0431,0.02,True
+TECH_GOOGL,Alphabet Inc.,Technology,2023,11.3951,High,High,0.1057,0.162,0.7322,True,High,0.07,0.1317,0.7983,True
+TECH_HPQ,HP Inc.,Technology,2023,2.7253,Moderate,Low,0.7329,0.2236,0.0435,False,Low,0.8482,0.1286,0.0232,False
+TECH_IBM,International Business Machines Corp,Technology,2023,3.0068,Moderate,Low,0.6119,0.3279,0.0602,False,Low,0.7631,0.2208,0.0161,False
+TECH_INTC,Intel Corporation,Technology,2023,16.4675,High,Low,0.4501,0.2638,0.2861,False,Low,0.5379,0.1958,0.2664,False
+TECH_META,Meta Platforms Inc.,Technology,2023,0.3752,Low,Low,0.8871,0.0869,0.026,True,Low,0.9547,0.0332,0.0121,True
+TECH_MSFT,Microsoft Corporation,Technology,2023,1.8998,Low,Moderate,0.2568,0.5362,0.207,False,Moderate,0.1262,0.7903,0.0836,False
+TECH_NVDA,NVIDIA Corporation,Technology,2023,2.7069,Moderate,Low,0.5376,0.4216,0.0408,False,Low,0.8423,0.1325,0.0251,False
+TRAN_FDX,FedEx Corporation,Transportation,2023,238.9219,Moderate,Moderate,0.2316,0.3872,0.3812,True,Moderate,0.1261,0.7039,0.17,True
+TRAN_LUV,Southwest Airlines Co.,Transportation,2023,530.4894,High,High,0.2136,0.131,0.6555,True,High,0.1019,0.0236,0.8745,True
+TRAN_UPS,United Parcel Service Inc.,Transportation,2023,178.1042,Low,High,0.3197,0.2585,0.4218,False,High,0.3393,0.2049,0.4557,False
+UTIL_D,Dominion Energy Inc.,Utilities,2023,1422.8516,Moderate,Moderate,0.2334,0.4072,0.3594,True,Moderate,0.2908,0.4596,0.2496,True
+UTIL_DUK,Duke Energy Corporation,Utilities,2023,2563.9953,High,High,0.2254,0.2984,0.4762,True,High,0.1812,0.0684,0.7504,True
+UTIL_EXC,Exelon Corporation,Utilities,2023,617.3179,Low,Low,0.4183,0.3637,0.218,True,Low,0.6553,0.2213,0.1234,True
+UTIL_NEE,NextEra Energy Inc.,Utilities,2023,463.7097,Low,Low,0.3901,0.3609,0.249,True,Low,0.5232,0.3568,0.12,True
+UTIL_SO,Southern Company,Utilities,2023,2584.2474,High,High,0.2617,0.3191,0.4192,True,High,0.3151,0.2792,0.4056,True

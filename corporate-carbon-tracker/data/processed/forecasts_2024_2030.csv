@@ -1,0 +1,456 @@
+company_id,company_name,sector,forecast_year,projected_emissions_tco2e,cagr_applied
+AERO_BA,The Boeing Company,Aerospace & Defense,2024,3087275.68,-0.0442
+AERO_BA,The Boeing Company,Aerospace & Defense,2025,2950857.93,-0.0442
+AERO_BA,The Boeing Company,Aerospace & Defense,2026,2820468.09,-0.0442
+AERO_BA,The Boeing Company,Aerospace & Defense,2027,2695839.79,-0.0442
+AERO_BA,The Boeing Company,Aerospace & Defense,2028,2576718.46,-0.0442
+AERO_BA,The Boeing Company,Aerospace & Defense,2029,2462860.75,-0.0442
+AERO_BA,The Boeing Company,Aerospace & Defense,2030,2354034.09,-0.0442
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2024,1049300.85,-0.0547
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2025,991920.96,-0.0547
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2026,937678.83,-0.0547
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2027,886402.88,-0.0547
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2028,837930.89,-0.0547
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2029,792109.54,-0.0547
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2030,748793.89,-0.0547
+AERO_RTX,RTX Corporation,Aerospace & Defense,2024,1715444.91,-0.0626
+AERO_RTX,RTX Corporation,Aerospace & Defense,2025,1608060.79,-0.0626
+AERO_RTX,RTX Corporation,Aerospace & Defense,2026,1507398.74,-0.0626
+AERO_RTX,RTX Corporation,Aerospace & Defense,2027,1413037.97,-0.0626
+AERO_RTX,RTX Corporation,Aerospace & Defense,2028,1324584.04,-0.0626
+AERO_RTX,RTX Corporation,Aerospace & Defense,2029,1241667.19,-0.0626
+AERO_RTX,RTX Corporation,Aerospace & Defense,2030,1163940.8,-0.0626
+AUTO_F,Ford Motor Company,Automotive,2024,3095016.85,-0.0649
+AUTO_F,Ford Motor Company,Automotive,2025,2893996.77,-0.0649
+AUTO_F,Ford Motor Company,Automotive,2026,2706032.87,-0.0649
+AUTO_F,Ford Motor Company,Automotive,2027,2530277.14,-0.0649
+AUTO_F,Ford Motor Company,Automotive,2028,2365936.67,-0.0649
+AUTO_F,Ford Motor Company,Automotive,2029,2212270.05,-0.0649
+AUTO_F,Ford Motor Company,Automotive,2030,2068584.01,-0.0649
+AUTO_GM,General Motors Company,Automotive,2024,2447314.07,-0.0936
+AUTO_GM,General Motors Company,Automotive,2025,2218276.36,-0.0936
+AUTO_GM,General Motors Company,Automotive,2026,2010673.68,-0.0936
+AUTO_GM,General Motors Company,Automotive,2027,1822500.0,-0.0936
+AUTO_GM,General Motors Company,Automotive,2028,1651937.0,-0.0936
+AUTO_GM,General Motors Company,Automotive,2029,1497336.54,-0.0936
+AUTO_GM,General Motors Company,Automotive,2030,1357204.74,-0.0936
+AUTO_TSLA,"Tesla, Inc.",Automotive,2024,8644800.0,0.2
+AUTO_TSLA,"Tesla, Inc.",Automotive,2025,10373760.0,0.2
+AUTO_TSLA,"Tesla, Inc.",Automotive,2026,12448512.0,0.2
+AUTO_TSLA,"Tesla, Inc.",Automotive,2027,14938214.4,0.2
+AUTO_TSLA,"Tesla, Inc.",Automotive,2028,17925857.28,0.2
+AUTO_TSLA,"Tesla, Inc.",Automotive,2029,21511028.74,0.2
+AUTO_TSLA,"Tesla, Inc.",Automotive,2030,25813234.48,0.2
+CONS_KO,The Coca-Cola Company,Consumer Staples,2024,4843535.94,-0.0215
+CONS_KO,The Coca-Cola Company,Consumer Staples,2025,4739361.7,-0.0215
+CONS_KO,The Coca-Cola Company,Consumer Staples,2026,4637428.03,-0.0215
+CONS_KO,The Coca-Cola Company,Consumer Staples,2027,4537686.74,-0.0215
+CONS_KO,The Coca-Cola Company,Consumer Staples,2028,4440090.67,-0.0215
+CONS_KO,The Coca-Cola Company,Consumer Staples,2029,4344593.68,-0.0215
+CONS_KO,The Coca-Cola Company,Consumer Staples,2030,4251150.64,-0.0215
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2024,67383.15,-0.1793
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2025,55304.37,-0.1793
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2026,45390.77,-0.1793
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2027,37254.24,-0.1793
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2028,30576.23,-0.1793
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2029,25095.28,-0.1793
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2030,20596.82,-0.1793
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2024,3915373.16,-0.0787
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2025,3607093.41,-0.0787
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2026,3323086.29,-0.0787
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2027,3061440.68,-0.0787
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2028,2820395.92,-0.0787
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2029,2598330.0,-0.0787
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2030,2393748.6,-0.0787
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2024,442954.22,-0.0371
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2025,426540.09,-0.0371
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2026,410734.2,-0.0371
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2027,395514.02,-0.0371
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2028,380857.83,-0.0371
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2029,366744.75,-0.0371
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2030,353154.64,-0.0371
+CONS_UL,Unilever PLC,Consumer Staples,2024,3088235.71,-0.0863
+CONS_UL,Unilever PLC,Consumer Staples,2025,2821656.75,-0.0863
+CONS_UL,Unilever PLC,Consumer Staples,2026,2578089.09,-0.0863
+CONS_UL,Unilever PLC,Consumer Staples,2027,2355546.39,-0.0863
+CONS_UL,Unilever PLC,Consumer Staples,2028,2152213.75,-0.0863
+CONS_UL,Unilever PLC,Consumer Staples,2029,1966432.95,-0.0863
+CONS_UL,Unilever PLC,Consumer Staples,2030,1796688.89,-0.0863
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2024,1018841.89,-0.0241
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2025,994290.03,-0.0241
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2026,970329.82,-0.0241
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2027,946947.0,-0.0241
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2028,924127.66,-0.0241
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2029,901858.21,-0.0241
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2030,880125.4,-0.0241
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2024,965822.51,-0.0264
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2025,940335.8,-0.0264
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2026,915521.66,-0.0264
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2027,891362.32,-0.0264
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2028,867840.51,-0.0264
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2029,844939.42,-0.0264
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2030,822642.65,-0.0264
+ENG_COP,ConocoPhillips,Energy,2024,17288727.87,-0.0395
+ENG_COP,ConocoPhillips,Energy,2025,16605561.74,-0.0395
+ENG_COP,ConocoPhillips,Energy,2026,15949391.01,-0.0395
+ENG_COP,ConocoPhillips,Energy,2027,15319148.94,-0.0395
+ENG_COP,ConocoPhillips,Energy,2028,14713810.95,-0.0395
+ENG_COP,ConocoPhillips,Energy,2029,14132392.97,-0.0395
+ENG_COP,ConocoPhillips,Energy,2030,13573949.79,-0.0395
+ENG_CVX,Chevron Corporation,Energy,2024,53327716.9,-0.0233
+ENG_CVX,Chevron Corporation,Energy,2025,52085080.4,-0.0233
+ENG_CVX,Chevron Corporation,Energy,2026,50871399.67,-0.0233
+ENG_CVX,Chevron Corporation,Energy,2027,49686000.0,-0.0233
+ENG_CVX,Chevron Corporation,Energy,2028,48528222.38,-0.0233
+ENG_CVX,Chevron Corporation,Energy,2029,47397423.16,-0.0233
+ENG_CVX,Chevron Corporation,Energy,2030,46292973.7,-0.0233
+ENG_MPC,Marathon Petroleum Corporation,Energy,2024,27337380.36,-0.0102
+ENG_MPC,Marathon Petroleum Corporation,Energy,2025,27057652.61,-0.0102
+ENG_MPC,Marathon Petroleum Corporation,Energy,2026,26780787.15,-0.0102
+ENG_MPC,Marathon Petroleum Corporation,Energy,2027,26506754.69,-0.0102
+ENG_MPC,Marathon Petroleum Corporation,Energy,2028,26235526.25,-0.0102
+ENG_MPC,Marathon Petroleum Corporation,Energy,2029,25967073.14,-0.0102
+ENG_MPC,Marathon Petroleum Corporation,Energy,2030,25701366.95,-0.0102
+ENG_VLO,Valero Energy Corporation,Energy,2024,22679119.36,-0.0053
+ENG_VLO,Valero Energy Corporation,Energy,2025,22558879.59,-0.0053
+ENG_VLO,Valero Energy Corporation,Energy,2026,22439277.32,-0.0053
+ENG_VLO,Valero Energy Corporation,Energy,2027,22320309.15,-0.0053
+ENG_VLO,Valero Energy Corporation,Energy,2028,22201971.72,-0.0053
+ENG_VLO,Valero Energy Corporation,Energy,2029,22084261.69,-0.0053
+ENG_VLO,Valero Energy Corporation,Energy,2030,21967175.73,-0.0053
+ENG_XOM,ExxonMobil Corporation,Energy,2024,94212394.8,-0.0287
+ENG_XOM,ExxonMobil Corporation,Energy,2025,91504900.36,-0.0287
+ENG_XOM,ExxonMobil Corporation,Energy,2026,88875214.42,-0.0287
+ENG_XOM,ExxonMobil Corporation,Energy,2027,86321100.92,-0.0287
+ENG_XOM,ExxonMobil Corporation,Energy,2028,83840388.04,-0.0287
+ENG_XOM,ExxonMobil Corporation,Energy,2029,81430966.37,-0.0287
+ENG_XOM,ExxonMobil Corporation,Energy,2030,79090787.14,-0.0287
+FIN_BAC,Bank of America Corporation,Finance,2024,57684.37,-0.241
+FIN_BAC,Bank of America Corporation,Finance,2025,43782.71,-0.241
+FIN_BAC,Bank of America Corporation,Finance,2026,33231.29,-0.241
+FIN_BAC,Bank of America Corporation,Finance,2027,25222.71,-0.241
+FIN_BAC,Bank of America Corporation,Finance,2028,19144.16,-0.241
+FIN_BAC,Bank of America Corporation,Finance,2029,14530.51,-0.241
+FIN_BAC,Bank of America Corporation,Finance,2030,11028.72,-0.241
+FIN_C,Citigroup Inc.,Finance,2024,287758.68,-0.1173
+FIN_C,Citigroup Inc.,Finance,2025,254003.24,-0.1173
+FIN_C,Citigroup Inc.,Finance,2026,224207.47,-0.1173
+FIN_C,Citigroup Inc.,Finance,2027,197906.89,-0.1173
+FIN_C,Citigroup Inc.,Finance,2028,174691.49,-0.1173
+FIN_C,Citigroup Inc.,Finance,2029,154199.36,-0.1173
+FIN_C,Citigroup Inc.,Finance,2030,136111.05,-0.1173
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2024,43593.52,-0.1867
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2025,35455.13,-0.1867
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2026,28836.09,-0.1867
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2027,23452.73,-0.1867
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2028,19074.39,-0.1867
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2029,15513.43,-0.1867
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2030,12617.26,-0.1867
+FIN_JPM,JPMorgan Chase & Co.,Finance,2024,188956.04,-0.0827
+FIN_JPM,JPMorgan Chase & Co.,Finance,2025,173322.26,-0.0827
+FIN_JPM,JPMorgan Chase & Co.,Finance,2026,158981.98,-0.0827
+FIN_JPM,JPMorgan Chase & Co.,Finance,2027,145828.18,-0.0827
+FIN_JPM,JPMorgan Chase & Co.,Finance,2028,133762.69,-0.0827
+FIN_JPM,JPMorgan Chase & Co.,Finance,2029,122695.48,-0.0827
+FIN_JPM,JPMorgan Chase & Co.,Finance,2030,112543.94,-0.0827
+FIN_WFC,Wells Fargo and Company,Finance,2024,281797.57,-0.1329
+FIN_WFC,Wells Fargo and Company,Finance,2025,244338.06,-0.1329
+FIN_WFC,Wells Fargo and Company,Finance,2026,211858.06,-0.1329
+FIN_WFC,Wells Fargo and Company,Finance,2027,183695.65,-0.1329
+FIN_WFC,Wells Fargo and Company,Finance,2028,159276.89,-0.1329
+FIN_WFC,Wells Fargo and Company,Finance,2029,138104.12,-0.1329
+FIN_WFC,Wells Fargo and Company,Finance,2030,119745.86,-0.1329
+HLTH_ABBV,AbbVie Inc.,Healthcare,2024,311006.46,-0.0341
+HLTH_ABBV,AbbVie Inc.,Healthcare,2025,300388.25,-0.0341
+HLTH_ABBV,AbbVie Inc.,Healthcare,2026,290132.57,-0.0341
+HLTH_ABBV,AbbVie Inc.,Healthcare,2027,280227.03,-0.0341
+HLTH_ABBV,AbbVie Inc.,Healthcare,2028,270659.68,-0.0341
+HLTH_ABBV,AbbVie Inc.,Healthcare,2029,261418.97,-0.0341
+HLTH_ABBV,AbbVie Inc.,Healthcare,2030,252493.75,-0.0341
+HLTH_ABT,Abbott Laboratories,Healthcare,2024,1240710.51,-0.0307
+HLTH_ABT,Abbott Laboratories,Healthcare,2025,1202627.01,-0.0307
+HLTH_ABT,Abbott Laboratories,Healthcare,2026,1165712.48,-0.0307
+HLTH_ABT,Abbott Laboratories,Healthcare,2027,1129931.03,-0.0307
+HLTH_ABT,Abbott Laboratories,Healthcare,2028,1095247.9,-0.0307
+HLTH_ABT,Abbott Laboratories,Healthcare,2029,1061629.36,-0.0307
+HLTH_ABT,Abbott Laboratories,Healthcare,2030,1029042.74,-0.0307
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2024,188900.02,-0.046
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2025,180218.28,-0.046
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2026,171935.54,-0.046
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2027,164033.47,-0.046
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2028,156494.58,-0.046
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2029,149302.17,-0.046
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2030,142440.32,-0.046
+HLTH_CVS,CVS Health Corporation,Healthcare,2024,2762936.35,-0.0406
+HLTH_CVS,CVS Health Corporation,Healthcare,2025,2650631.0,-0.0406
+HLTH_CVS,CVS Health Corporation,Healthcare,2026,2542890.54,-0.0406
+HLTH_CVS,CVS Health Corporation,Healthcare,2027,2439529.41,-0.0406
+HLTH_CVS,CVS Health Corporation,Healthcare,2028,2340369.62,-0.0406
+HLTH_CVS,CVS Health Corporation,Healthcare,2029,2245240.38,-0.0406
+HLTH_CVS,CVS Health Corporation,Healthcare,2030,2153977.87,-0.0406
+HLTH_JNJ,Johnson & Johnson,Healthcare,2024,455844.58,-0.017
+HLTH_JNJ,Johnson & Johnson,Healthcare,2025,448097.11,-0.017
+HLTH_JNJ,Johnson & Johnson,Healthcare,2026,440481.32,-0.017
+HLTH_JNJ,Johnson & Johnson,Healthcare,2027,432994.96,-0.017
+HLTH_JNJ,Johnson & Johnson,Healthcare,2028,425635.84,-0.017
+HLTH_JNJ,Johnson & Johnson,Healthcare,2029,418401.79,-0.017
+HLTH_JNJ,Johnson & Johnson,Healthcare,2030,411290.69,-0.017
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2024,2545225.4,-0.0711
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2025,2364296.48,-0.0711
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2026,2196229.0,-0.0711
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2027,2040108.7,-0.0711
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2028,1895086.3,-0.0711
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2029,1760372.92,-0.0711
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2030,1635235.72,-0.0711
+HLTH_PFE,Pfizer Inc.,Healthcare,2024,906231.63,-0.0846
+HLTH_PFE,Pfizer Inc.,Healthcare,2025,829551.28,-0.0846
+HLTH_PFE,Pfizer Inc.,Healthcare,2026,759359.19,-0.0846
+HLTH_PFE,Pfizer Inc.,Healthcare,2027,695106.38,-0.0846
+HLTH_PFE,Pfizer Inc.,Healthcare,2028,636290.29,-0.0846
+HLTH_PFE,Pfizer Inc.,Healthcare,2029,582450.9,-0.0846
+HLTH_PFE,Pfizer Inc.,Healthcare,2030,533167.09,-0.0846
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2024,125247.33,-0.1241
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2025,109698.56,-0.1241
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2026,96080.08,-0.1241
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2027,84152.26,-0.1241
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2028,73705.22,-0.1241
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2029,64555.12,-0.1241
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2030,56540.95,-0.1241
+IND_CAT,Caterpillar Inc.,Industrials,2024,1590444.63,-0.0419
+IND_CAT,Caterpillar Inc.,Industrials,2025,1523803.68,-0.0419
+IND_CAT,Caterpillar Inc.,Industrials,2026,1459955.05,-0.0419
+IND_CAT,Caterpillar Inc.,Industrials,2027,1398781.73,-0.0419
+IND_CAT,Caterpillar Inc.,Industrials,2028,1340171.62,-0.0419
+IND_CAT,Caterpillar Inc.,Industrials,2029,1284017.32,-0.0419
+IND_CAT,Caterpillar Inc.,Industrials,2030,1230215.93,-0.0419
+IND_GE,GE Vernova Inc.,Industrials,2024,2618483.17,-0.078
+IND_GE,GE Vernova Inc.,Industrials,2025,2414244.41,-0.078
+IND_GE,GE Vernova Inc.,Industrials,2026,2225936.05,-0.078
+IND_GE,GE Vernova Inc.,Industrials,2027,2052315.52,-0.078
+IND_GE,GE Vernova Inc.,Industrials,2028,1892237.2,-0.078
+IND_GE,GE Vernova Inc.,Industrials,2029,1744644.82,-0.078
+IND_GE,GE Vernova Inc.,Industrials,2030,1608564.47,-0.078
+IND_HON,Honeywell International Inc.,Industrials,2024,1965392.76,-0.0729
+IND_HON,Honeywell International Inc.,Industrials,2025,1822060.71,-0.0729
+IND_HON,Honeywell International Inc.,Industrials,2026,1689181.57,-0.0729
+IND_HON,Honeywell International Inc.,Industrials,2027,1565993.03,-0.0729
+IND_HON,Honeywell International Inc.,Industrials,2028,1451788.38,-0.0729
+IND_HON,Honeywell International Inc.,Industrials,2029,1345912.44,-0.0729
+IND_HON,Honeywell International Inc.,Industrials,2030,1247757.81,-0.0729
+IND_LMT,Lockheed Martin Corporation,Industrials,2024,668147.23,-0.0128
+IND_LMT,Lockheed Martin Corporation,Industrials,2025,659607.04,-0.0128
+IND_LMT,Lockheed Martin Corporation,Industrials,2026,651176.0,-0.0128
+IND_LMT,Lockheed Martin Corporation,Industrials,2027,642852.73,-0.0128
+IND_LMT,Lockheed Martin Corporation,Industrials,2028,634635.85,-0.0128
+IND_LMT,Lockheed Martin Corporation,Industrials,2029,626524.0,-0.0128
+IND_LMT,Lockheed Martin Corporation,Industrials,2030,618515.83,-0.0128
+IND_MMM,3M Company,Industrials,2024,4163904.3,-0.0622
+IND_MMM,3M Company,Industrials,2025,3904977.26,-0.0622
+IND_MMM,3M Company,Industrials,2026,3662151.26,-0.0622
+IND_MMM,3M Company,Industrials,2027,3434425.09,-0.0622
+IND_MMM,3M Company,Industrials,2028,3220859.77,-0.0622
+IND_MMM,3M Company,Industrials,2029,3020574.74,-0.0622
+IND_MMM,3M Company,Industrials,2030,2832744.18,-0.0622
+MAT_AA,Alcoa Corporation,Materials,2024,33144957.06,-0.0503
+MAT_AA,Alcoa Corporation,Materials,2025,31478171.29,-0.0503
+MAT_AA,Alcoa Corporation,Materials,2026,29895204.46,-0.0503
+MAT_AA,Alcoa Corporation,Materials,2027,28391841.49,-0.0503
+MAT_AA,Alcoa Corporation,Materials,2028,26964079.28,-0.0503
+MAT_AA,Alcoa Corporation,Materials,2029,25608116.04,-0.0503
+MAT_AA,Alcoa Corporation,Materials,2030,24320341.16,-0.0503
+MAT_STLD,Steel Dynamics Inc.,Materials,2024,7346545.09,0.0261
+MAT_STLD,Steel Dynamics Inc.,Materials,2025,7537950.38,0.0261
+MAT_STLD,Steel Dynamics Inc.,Materials,2026,7734342.51,0.0261
+MAT_STLD,Steel Dynamics Inc.,Materials,2027,7935851.39,0.0261
+MAT_STLD,Steel Dynamics Inc.,Materials,2028,8142610.35,0.0261
+MAT_STLD,Steel Dynamics Inc.,Materials,2029,8354756.15,0.0261
+MAT_STLD,Steel Dynamics Inc.,Materials,2030,8572429.16,0.0261
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2024,1724756.2,-0.0076
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2025,1711613.31,-0.0076
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2026,1698570.58,-0.0076
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2027,1685627.23,-0.0076
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2028,1672782.52,-0.0076
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2029,1660035.68,-0.0076
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2030,1647385.97,-0.0076
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2024,67797.02,-0.0231
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2025,66231.06,-0.0231
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2026,64701.28,-0.0231
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2027,63206.82,-0.0231
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2028,61746.89,-0.0231
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2029,60320.68,-0.0231
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2030,58927.41,-0.0231
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2024,15530959.72,0.0151
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2025,15765405.87,0.0151
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2026,16003391.08,0.0151
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2027,16244968.77,0.0151
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2028,16490193.18,0.0151
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2029,16739119.35,0.0151
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2030,16991803.16,0.0151
+MINE_NUE,Nucor Corporation,Mining & Metals,2024,10590254.44,0.0144
+MINE_NUE,Nucor Corporation,Mining & Metals,2025,10742671.37,0.0144
+MINE_NUE,Nucor Corporation,Mining & Metals,2026,10897281.92,0.0144
+MINE_NUE,Nucor Corporation,Mining & Metals,2027,11054117.65,0.0144
+MINE_NUE,Nucor Corporation,Mining & Metals,2028,11213210.59,0.0144
+MINE_NUE,Nucor Corporation,Mining & Metals,2029,11374593.22,0.0144
+MINE_NUE,Nucor Corporation,Mining & Metals,2030,11538298.5,0.0144
+REIT_CBRE,CBRE Group Inc.,Real Estate,2024,87360.92,-0.0706
+REIT_CBRE,CBRE Group Inc.,Real Estate,2025,81190.74,-0.0706
+REIT_CBRE,CBRE Group Inc.,Real Estate,2026,75456.36,-0.0706
+REIT_CBRE,CBRE Group Inc.,Real Estate,2027,70126.98,-0.0706
+REIT_CBRE,CBRE Group Inc.,Real Estate,2028,65174.02,-0.0706
+REIT_CBRE,CBRE Group Inc.,Real Estate,2029,60570.87,-0.0706
+REIT_CBRE,CBRE Group Inc.,Real Estate,2030,56292.84,-0.0706
+REIT_PLD,Prologis Inc.,Real Estate,2024,136774.38,-0.1232
+REIT_PLD,Prologis Inc.,Real Estate,2025,119918.15,-0.1232
+REIT_PLD,Prologis Inc.,Real Estate,2026,105139.31,-0.1232
+REIT_PLD,Prologis Inc.,Real Estate,2027,92181.82,-0.1232
+REIT_PLD,Prologis Inc.,Real Estate,2028,80821.23,-0.1232
+REIT_PLD,Prologis Inc.,Real Estate,2029,70860.73,-0.1232
+REIT_PLD,Prologis Inc.,Real Estate,2030,62127.77,-0.1232
+REIT_SPG,Simon Property Group Inc.,Real Estate,2024,341976.64,-0.0474
+REIT_SPG,Simon Property Group Inc.,Real Estate,2025,325760.5,-0.0474
+REIT_SPG,Simon Property Group Inc.,Real Estate,2026,310313.32,-0.0474
+REIT_SPG,Simon Property Group Inc.,Real Estate,2027,295598.62,-0.0474
+REIT_SPG,Simon Property Group Inc.,Real Estate,2028,281581.68,-0.0474
+REIT_SPG,Simon Property Group Inc.,Real Estate,2029,268229.41,-0.0474
+REIT_SPG,Simon Property Group Inc.,Real Estate,2030,255510.28,-0.0474
+RETL_WMT,Walmart Inc.,Retail & Consumer,2024,14565019.65,-0.048
+RETL_WMT,Walmart Inc.,Retail & Consumer,2025,13865346.23,-0.048
+RETL_WMT,Walmart Inc.,Retail & Consumer,2026,13199283.68,-0.048
+RETL_WMT,Walmart Inc.,Retail & Consumer,2027,12565217.39,-0.048
+RETL_WMT,Walmart Inc.,Retail & Consumer,2028,11961610.34,-0.048
+RETL_WMT,Walmart Inc.,Retail & Consumer,2029,11386999.32,-0.048
+RETL_WMT,Walmart Inc.,Retail & Consumer,2030,10839991.43,-0.048
+RET_TGT,Target Corporation,Retail & Consumer,2024,2587757.77,-0.0888
+RET_TGT,Target Corporation,Retail & Consumer,2025,2357919.11,-0.0888
+RET_TGT,Target Corporation,Retail & Consumer,2026,2148494.19,-0.0888
+RET_TGT,Target Corporation,Retail & Consumer,2027,1957669.9,-0.0888
+RET_TGT,Target Corporation,Retail & Consumer,2028,1783794.19,-0.0888
+RET_TGT,Target Corporation,Retail & Consumer,2029,1625361.72,-0.0888
+RET_TGT,Target Corporation,Retail & Consumer,2030,1481000.85,-0.0888
+TECH_AAPL,Apple Inc.,Technology,2024,60166.89,0.0267
+TECH_AAPL,Apple Inc.,Technology,2025,61775.68,0.0267
+TECH_AAPL,Apple Inc.,Technology,2026,63427.49,0.0267
+TECH_AAPL,Apple Inc.,Technology,2027,65123.46,0.0267
+TECH_AAPL,Apple Inc.,Technology,2028,66864.78,0.0267
+TECH_AAPL,Apple Inc.,Technology,2029,68652.66,0.0267
+TECH_AAPL,Apple Inc.,Technology,2030,70488.35,0.0267
+TECH_AMZN,Amazon.com Inc.,Technology,2024,18816442.16,0.1082
+TECH_AMZN,Amazon.com Inc.,Technology,2025,20851501.5,0.1082
+TECH_AMZN,Amazon.com Inc.,Technology,2026,23106659.12,0.1082
+TECH_AMZN,Amazon.com Inc.,Technology,2027,25605719.36,0.1082
+TECH_AMZN,Amazon.com Inc.,Technology,2028,28375061.09,0.1082
+TECH_AMZN,Amazon.com Inc.,Technology,2029,31443916.11,0.1082
+TECH_AMZN,Amazon.com Inc.,Technology,2030,34844677.78,0.1082
+TECH_CRM,Salesforce Inc.,Technology,2024,13261.21,-0.2059
+TECH_CRM,Salesforce Inc.,Technology,2025,10530.53,-0.2059
+TECH_CRM,Salesforce Inc.,Technology,2026,8362.13,-0.2059
+TECH_CRM,Salesforce Inc.,Technology,2027,6640.24,-0.2059
+TECH_CRM,Salesforce Inc.,Technology,2028,5272.91,-0.2059
+TECH_CRM,Salesforce Inc.,Technology,2029,4187.14,-0.2059
+TECH_CRM,Salesforce Inc.,Technology,2030,3324.94,-0.2059
+TECH_GOOGL,Alphabet Inc.,Technology,2024,4203360.0,0.2
+TECH_GOOGL,Alphabet Inc.,Technology,2025,5044032.0,0.2
+TECH_GOOGL,Alphabet Inc.,Technology,2026,6052838.4,0.2
+TECH_GOOGL,Alphabet Inc.,Technology,2027,7263406.08,0.2
+TECH_GOOGL,Alphabet Inc.,Technology,2028,8716087.3,0.2
+TECH_GOOGL,Alphabet Inc.,Technology,2029,10459304.76,0.2
+TECH_GOOGL,Alphabet Inc.,Technology,2030,12551165.71,0.2
+TECH_HPQ,HP Inc.,Technology,2024,141471.68,-0.0337
+TECH_HPQ,HP Inc.,Technology,2025,136709.27,-0.0337
+TECH_HPQ,HP Inc.,Technology,2026,132107.18,-0.0337
+TECH_HPQ,HP Inc.,Technology,2027,127660.0,-0.0337
+TECH_HPQ,HP Inc.,Technology,2028,123362.54,-0.0337
+TECH_HPQ,HP Inc.,Technology,2029,119209.74,-0.0337
+TECH_HPQ,HP Inc.,Technology,2030,115196.74,-0.0337
+TECH_IBM,International Business Machines Corp,Technology,2024,147525.37,-0.2069
+TECH_IBM,International Business Machines Corp,Technology,2025,117009.33,-0.2069
+TECH_IBM,International Business Machines Corp,Technology,2026,92805.62,-0.2069
+TECH_IBM,International Business Machines Corp,Technology,2027,73608.51,-0.2069
+TECH_IBM,International Business Machines Corp,Technology,2028,58382.38,-0.2069
+TECH_IBM,International Business Machines Corp,Technology,2029,46305.82,-0.2069
+TECH_IBM,International Business Machines Corp,Technology,2030,36727.33,-0.2069
+TECH_INTC,Intel Corporation,Technology,2024,775513.59,-0.1316
+TECH_INTC,Intel Corporation,Technology,2025,673484.12,-0.1316
+TECH_INTC,Intel Corporation,Technology,2026,584878.04,-0.1316
+TECH_INTC,Intel Corporation,Technology,2027,507929.3,-0.1316
+TECH_INTC,Intel Corporation,Technology,2028,441104.22,-0.1316
+TECH_INTC,Intel Corporation,Technology,2029,383070.91,-0.1316
+TECH_INTC,Intel Corporation,Technology,2030,332672.67,-0.1316
+TECH_META,Meta Platforms Inc.,Technology,2024,37957.5,-0.25
+TECH_META,Meta Platforms Inc.,Technology,2025,28468.12,-0.25
+TECH_META,Meta Platforms Inc.,Technology,2026,21351.09,-0.25
+TECH_META,Meta Platforms Inc.,Technology,2027,16013.32,-0.25
+TECH_META,Meta Platforms Inc.,Technology,2028,12009.99,-0.25
+TECH_META,Meta Platforms Inc.,Technology,2029,9007.49,-0.25
+TECH_META,Meta Platforms Inc.,Technology,2030,6755.62,-0.25
+TECH_MSFT,Microsoft Corporation,Technology,2024,368402.72,-0.0849
+TECH_MSFT,Microsoft Corporation,Technology,2025,337110.19,-0.0849
+TECH_MSFT,Microsoft Corporation,Technology,2026,308475.68,-0.0849
+TECH_MSFT,Microsoft Corporation,Technology,2027,282273.42,-0.0849
+TECH_MSFT,Microsoft Corporation,Technology,2028,258296.81,-0.0849
+TECH_MSFT,Microsoft Corporation,Technology,2029,236356.79,-0.0849
+TECH_MSFT,Microsoft Corporation,Technology,2030,216280.39,-0.0849
+TECH_NVDA,NVIDIA Corporation,Technology,2024,72915.71,-0.0014
+TECH_NVDA,NVIDIA Corporation,Technology,2025,72814.56,-0.0014
+TECH_NVDA,NVIDIA Corporation,Technology,2026,72713.55,-0.0014
+TECH_NVDA,NVIDIA Corporation,Technology,2027,72612.69,-0.0014
+TECH_NVDA,NVIDIA Corporation,Technology,2028,72511.96,-0.0014
+TECH_NVDA,NVIDIA Corporation,Technology,2029,72411.37,-0.0014
+TECH_NVDA,NVIDIA Corporation,Technology,2030,72310.92,-0.0014
+TRAN_FDX,FedEx Corporation,Transportation,2024,21580186.74,0.0019
+TRAN_FDX,FedEx Corporation,Transportation,2025,21620448.46,0.0019
+TRAN_FDX,FedEx Corporation,Transportation,2026,21660785.29,0.0019
+TRAN_FDX,FedEx Corporation,Transportation,2027,21701197.38,0.0019
+TRAN_FDX,FedEx Corporation,Transportation,2028,21741684.87,0.0019
+TRAN_FDX,FedEx Corporation,Transportation,2029,21782247.89,0.0019
+TRAN_FDX,FedEx Corporation,Transportation,2030,21822886.59,0.0019
+TRAN_LUV,Southwest Airlines Co.,Transportation,2024,13766756.4,-0.0054
+TRAN_LUV,Southwest Airlines Co.,Transportation,2025,13692911.04,-0.0054
+TRAN_LUV,Southwest Airlines Co.,Transportation,2026,13619461.79,-0.0054
+TRAN_LUV,Southwest Airlines Co.,Transportation,2027,13546406.52,-0.0054
+TRAN_LUV,Southwest Airlines Co.,Transportation,2028,13473743.12,-0.0054
+TRAN_LUV,Southwest Airlines Co.,Transportation,2029,13401469.5,-0.0054
+TRAN_LUV,Southwest Airlines Co.,Transportation,2030,13329583.55,-0.0054
+TRAN_UPS,United Parcel Service Inc.,Transportation,2024,16116097.71,-0.0052
+TRAN_UPS,United Parcel Service Inc.,Transportation,2025,16032629.97,-0.0052
+TRAN_UPS,United Parcel Service Inc.,Transportation,2026,15949594.52,-0.0052
+TRAN_UPS,United Parcel Service Inc.,Transportation,2027,15866989.12,-0.0052
+TRAN_UPS,United Parcel Service Inc.,Transportation,2028,15784811.54,-0.0052
+TRAN_UPS,United Parcel Service Inc.,Transportation,2029,15703059.58,-0.0052
+TRAN_UPS,United Parcel Service Inc.,Transportation,2030,15621731.03,-0.0052
+UTIL_D,Dominion Energy Inc.,Utilities,2024,18281201.61,-0.0474
+UTIL_D,Dominion Energy Inc.,Utilities,2025,17415442.01,-0.0474
+UTIL_D,Dominion Energy Inc.,Utilities,2026,16590682.99,-0.0474
+UTIL_D,Dominion Energy Inc.,Utilities,2027,15804982.83,-0.0474
+UTIL_D,Dominion Energy Inc.,Utilities,2028,15056491.8,-0.0474
+UTIL_D,Dominion Energy Inc.,Utilities,2029,14343447.74,-0.0474
+UTIL_D,Dominion Energy Inc.,Utilities,2030,13664171.96,-0.0474
+UTIL_DUK,Duke Energy Corporation,Utilities,2024,70149724.22,-0.0458
+UTIL_DUK,Duke Energy Corporation,Utilities,2025,66933947.33,-0.0458
+UTIL_DUK,Duke Energy Corporation,Utilities,2026,63865586.86,-0.0458
+UTIL_DUK,Duke Energy Corporation,Utilities,2027,60937885.01,-0.0458
+UTIL_DUK,Duke Energy Corporation,Utilities,2028,58144393.74,-0.0458
+UTIL_DUK,Duke Energy Corporation,Utilities,2029,55478960.63,-0.0458
+UTIL_DUK,Duke Energy Corporation,Utilities,2030,52935715.29,-0.0458
+UTIL_EXC,Exelon Corporation,Utilities,2024,11274744.2,-0.1624
+UTIL_EXC,Exelon Corporation,Utilities,2025,9444268.7,-0.1624
+UTIL_EXC,Exelon Corporation,Utilities,2026,7910974.27,-0.1624
+UTIL_EXC,Exelon Corporation,Utilities,2027,6626613.02,-0.1624
+UTIL_EXC,Exelon Corporation,Utilities,2028,5550770.19,-0.1624
+UTIL_EXC,Exelon Corporation,Utilities,2029,4649592.42,-0.1624
+UTIL_EXC,Exelon Corporation,Utilities,2030,3894722.52,-0.1624
+UTIL_NEE,NextEra Energy Inc.,Utilities,2024,10730646.92,-0.0669
+UTIL_NEE,NextEra Energy Inc.,Utilities,2025,10012763.77,-0.0669
+UTIL_NEE,NextEra Energy Inc.,Utilities,2026,9342907.2,-0.0669
+UTIL_NEE,NextEra Energy Inc.,Utilities,2027,8717864.21,-0.0669
+UTIL_NEE,NextEra Energy Inc.,Utilities,2028,8134636.76,-0.0669
+UTIL_NEE,NextEra Energy Inc.,Utilities,2029,7590427.38,-0.0669
+UTIL_NEE,NextEra Energy Inc.,Utilities,2030,7082625.76,-0.0669
+UTIL_SO,Southern Company,Utilities,2024,61228698.43,-0.0618
+UTIL_SO,Southern Company,Utilities,2025,57446422.19,-0.0618
+UTIL_SO,Southern Company,Utilities,2026,53897788.24,-0.0618
+UTIL_SO,Southern Company,Utilities,2027,50568363.81,-0.0618
+UTIL_SO,Southern Company,Utilities,2028,47444607.69,-0.0618
+UTIL_SO,Southern Company,Utilities,2029,44513815.15,-0.0618
+UTIL_SO,Southern Company,Utilities,2030,41764066.26,-0.0618

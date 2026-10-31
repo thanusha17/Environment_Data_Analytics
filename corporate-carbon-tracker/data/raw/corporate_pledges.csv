@@ -1,0 +1,21 @@
+company_id,company_name,sector,pledge_title,pledge_type,baseline_year,target_year,target_reduction_pct,scope_covered,pledge_source_url
+TECH_MSFT,Microsoft Corporation,Technology,Carbon Negative Operations and Value Chain,net-zero,2020,2030,100,S1+S2+S3,https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/
+TECH_AAPL,Apple Inc.,Technology,100% Carbon Neutral for Supply Chain and Products,carbon-neutral,2019,2030,100,S1+S2+S3,https://www.apple.com/newsroom/2020/07/apple-commits-to-be-100-percent-carbon-neutral-for-its-supply-chain-and-products-by-2030/
+TECH_GOOGL,Alphabet Inc.,Technology,24/7 Carbon-Free Energy and Net-Zero Operations,carbon-neutral,2019,2030,100,S1+S2,https://blog.google/outreach-initiatives/sustainability/247-carbon-free-energy-2030/
+TECH_AMZN,Amazon.com Inc.,Technology,The Climate Pledge: Net-Zero Carbon Across Operations,net-zero,2019,2040,100,S1+S2+S3,https://sustainability.aboutamazon.com/climate-pledge
+TECH_META,Meta Platforms Inc.,Technology,Net Zero Emissions Across Value Chain,net-zero,2020,2030,100,S1+S2+S3,https://sustainability.fb.com/
+AUTO_F,Ford Motor Company,Automotive,Carbon Neutrality in Facilities and Products,carbon-neutral,2019,2050,100,S1+S2,https://media.ford.com/content/fordmedia/fna/us/en/news/2020/06/24/ford-targets-carbon-neutrality-by-2050.html
+AUTO_GM,General Motors Company,Automotive,Carbon Neutral in Global Products and Operations,carbon-neutral,2020,2040,100,S1+S2,https://news.gm.com/newsroom.detail.html/Pages/news/us/en/2021/jan/0128-carbon.html
+ENG_XOM,ExxonMobil Corporation,Energy,Net Zero Scope 1 and 2 GHG for Operated Assets,net-zero,2019,2050,100,S1+S2,https://corporate.exxonmobil.com/sustainability/climate-and-energy
+ENG_CVX,Chevron Corporation,Energy,Net Zero Upstream Scope 1 and 2 Emissions,net-zero,2019,2050,100,S1+S2,https://www.chevron.com/sustainability/environment
+RETL_WMT,Walmart Inc.,Retail & Consumer,Zero Emissions in Global Operations Without Carbon Offsets,net-zero,2019,2040,100,S1+S2,https://corporate.walmart.com/newsroom/2020/09/21/walmart-sets-goal-to-become-a-regenerative-company
+CONS_UL,Unilever PLC,Consumer Staples,Net Zero Emissions Across Value Chain From Sourcing to Point of Sale,net-zero,2019,2039,100,S1+S2+S3,https://www.unilever.com/planet-and-society/climate-action/
+HLTH_JNJ,Johnson & Johnson,Healthcare,Carbon Neutrality Across Global Operations,carbon-neutral,2019,2030,100,S1+S2,https://www.jnj.com/environmental-health/climate-change
+HLTH_PFE,Pfizer Inc.,Healthcare,Net Zero Standard for Direct Operations and Value Chain,net-zero,2019,2040,100,S1+S2+S3,https://www.pfizer.com/purpose/sustainability
+FIN_JPM,JPMorgan Chase & Co.,Finance,Carbon Neutral in Internal Operations and Branch Footprint,carbon-neutral,2019,2030,100,S1+S2,https://www.jpmorganchase.com/impact/sustainability
+FIN_GS,The Goldman Sachs Group Inc.,Finance,Net Zero Across Corporate Facilities and Supply Chain,net-zero,2019,2030,100,S1+S2,https://www.goldmansachs.com/our-commitments/sustainability/
+FIN_BAC,Bank of America Corporation,Finance,Net Zero GHG Operations and Sustainable Financing,net-zero,2019,2050,100,S1+S2,https://about.bankofamerica.com/en/making-an-impact/net-zero-goal
+REIT_PLD,Prologis Inc.,Real Estate,Net Zero Emissions Across Global Logistics Value Chain,net-zero,2019,2040,100,S1+S2+S3,https://www.prologis.com/sustainability/net-zero
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,Net Zero Direct Operational Emissions Across Parks and Studios,net-zero,2019,2030,100,S1+S2,https://impact.disney.com/environment/
+TECH_INTC,Intel Corporation,Technology,Net-Zero Greenhouse Gas Emissions Across Global Operations,net-zero,2019,2040,100,S1+S2,https://www.intel.com/content/www/us/en/newsroom/news/net-zero-greenhouse-gas-emissions-2040.html
+AERO_BA,The Boeing Company,Aerospace & Defense,Operational Climate Neutrality Across Manufacturing Facilities,carbon-neutral,2019,2030,100,S1+S2,https://www.boeing.com/principles/sustainability

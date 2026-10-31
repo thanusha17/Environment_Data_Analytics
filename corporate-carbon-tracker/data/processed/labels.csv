@@ -1,0 +1,314 @@
+company_id,company_name,sector,reporting_year,carbon_intensity_tco2e_per_usd_m,intensity_label
+AERO_BA,The Boeing Company,Aerospace & Defense,2019,50.5492,High
+AERO_BA,The Boeing Company,Aerospace & Defense,2020,48.3167,High
+AERO_BA,The Boeing Company,Aerospace & Defense,2021,46.8805,High
+AERO_BA,The Boeing Company,Aerospace & Defense,2022,46.3908,High
+AERO_BA,The Boeing Company,Aerospace & Defense,2023,41.5199,Moderate
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2019,41.0744,Moderate
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2020,33.9683,Moderate
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2021,33.6445,Moderate
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2022,31.6923,Low
+AERO_NOC,Northrop Grumman Corporation,Aerospace & Defense,2023,28.2515,Low
+AERO_RTX,RTX Corporation,Aerospace & Defense,2019,70.5357,High
+AERO_RTX,RTX Corporation,Aerospace & Defense,2020,35.6972,Moderate
+AERO_RTX,RTX Corporation,Aerospace & Defense,2021,30.5958,Low
+AERO_RTX,RTX Corporation,Aerospace & Defense,2022,28.6251,Low
+AERO_RTX,RTX Corporation,Aerospace & Defense,2023,26.5525,Low
+AUTO_F,Ford Motor Company,Automotive,2019,27.7742,High
+AUTO_F,Ford Motor Company,Automotive,2020,28.2357,High
+AUTO_F,Ford Motor Company,Automotive,2021,26.2577,Moderate
+AUTO_F,Ford Motor Company,Automotive,2022,21.9541,Moderate
+AUTO_F,Ford Motor Company,Automotive,2023,18.7864,Moderate
+AUTO_GM,General Motors Company,Automotive,2019,29.1467,High
+AUTO_GM,General Motors Company,Automotive,2020,31.2865,High
+AUTO_GM,General Motors Company,Automotive,2021,22.009,Moderate
+AUTO_GM,General Motors Company,Automotive,2022,18.7533,Moderate
+AUTO_GM,General Motors Company,Automotive,2023,17.1257,Low
+AUTO_TSLA,"Tesla, Inc.",Automotive,2020,14.9353,Low
+AUTO_TSLA,"Tesla, Inc.",Automotive,2021,11.4821,Low
+AUTO_TSLA,"Tesla, Inc.",Automotive,2022,10.5202,Low
+AUTO_TSLA,"Tesla, Inc.",Automotive,2023,74.4423,High
+CONS_KO,The Coca-Cola Company,Consumer Staples,2021,133.7473,High
+CONS_KO,The Coca-Cola Company,Consumer Staples,2022,115.8032,High
+CONS_KO,The Coca-Cola Company,Consumer Staples,2023,108.1873,High
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2019,4.6254,Low
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2020,3.5158,Low
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2021,2.5327,Low
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2022,2.0595,Low
+CONS_NKE,"NIKE, Inc.",Retail & Consumer,2023,1.603,Low
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2019,87.1698,High
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2020,76.1099,Moderate
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2021,66.0816,Moderate
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2022,57.8647,Low
+CONS_PG,The Procter & Gamble Company,Consumer Staples,2023,51.8255,Low
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2019,20.1821,Moderate
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2020,20.0697,Moderate
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2021,16.5172,Moderate
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2022,15.0696,Moderate
+CONS_SBUX,Starbucks Corporation,Retail & Consumer,2023,12.7864,Low
+CONS_UL,Unilever PLC,Consumer Staples,2019,83.3333,High
+CONS_UL,Unilever PLC,Consumer Staples,2020,74.5599,Moderate
+CONS_UL,Unilever PLC,Consumer Staples,2021,63.991,Moderate
+CONS_UL,Unilever PLC,Consumer Staples,2022,58.3399,Low
+CONS_UL,Unilever PLC,Consumer Staples,2023,52.4356,Low
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2019,10.6374,Moderate
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2020,9.8526,Moderate
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2021,8.4172,Low
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2022,7.264,Low
+DISC_HD,The Home Depot Inc.,Consumer Discretionary,2023,6.6327,Low
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2019,206.4555,High
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2020,172.46,High
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2021,163.1871,High
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2022,166.6011,High
+DISC_MCD,McDonald''s Corporation,Consumer Discretionary,2023,148.8998,Moderate
+ENG_COP,ConocoPhillips,Energy,2019,649.4304,High
+ENG_COP,ConocoPhillips,Energy,2020,867.7598,High
+ENG_COP,ConocoPhillips,Energy,2021,423.322,High
+ENG_COP,ConocoPhillips,Energy,2022,313.6825,Moderate
+ENG_COP,ConocoPhillips,Energy,2023,370.9657,High
+ENG_CVX,Chevron Corporation,Energy,2019,428.9851,High
+ENG_CVX,Chevron Corporation,Energy,2020,555.7261,High
+ENG_CVX,Chevron Corporation,Energy,2021,344.4597,Moderate
+ENG_CVX,Chevron Corporation,Energy,2022,235.4518,Low
+ENG_CVX,Chevron Corporation,Energy,2023,277.2798,Moderate
+ENG_MPC,Marathon Petroleum Corporation,Energy,2019,258.934,Moderate
+ENG_MPC,Marathon Petroleum Corporation,Energy,2020,354.118,Moderate
+ENG_MPC,Marathon Petroleum Corporation,Energy,2021,222.4482,Low
+ENG_MPC,Marathon Petroleum Corporation,Energy,2022,160.2678,Low
+ENG_MPC,Marathon Petroleum Corporation,Energy,2023,186.1449,Low
+ENG_VLO,Valero Energy Corporation,Energy,2019,215.0031,Low
+ENG_VLO,Valero Energy Corporation,Energy,2020,309.3419,Moderate
+ENG_VLO,Valero Energy Corporation,Energy,2021,191.3544,Low
+ENG_VLO,Valero Energy Corporation,Energy,2022,133.9698,Low
+ENG_VLO,Valero Energy Corporation,Energy,2023,157.4955,Low
+ENG_XOM,ExxonMobil Corporation,Energy,2019,426.4759,High
+ENG_XOM,ExxonMobil Corporation,Energy,2020,571.1918,High
+ENG_XOM,ExxonMobil Corporation,Energy,2021,372.2551,High
+ENG_XOM,ExxonMobil Corporation,Energy,2022,241.7327,Moderate
+ENG_XOM,ExxonMobil Corporation,Energy,2023,281.5005,Moderate
+FIN_BAC,Bank of America Corporation,Finance,2019,2.5098,Moderate
+FIN_BAC,Bank of America Corporation,Finance,2020,2.0227,Moderate
+FIN_BAC,Bank of America Corporation,Finance,2021,1.5149,Low
+FIN_BAC,Bank of America Corporation,Finance,2022,1.0848,Low
+FIN_BAC,Bank of America Corporation,Finance,2023,0.7395,Low
+FIN_C,Citigroup Inc.,Finance,2019,7.1536,High
+FIN_C,Citigroup Inc.,Finance,2020,5.841,High
+FIN_C,Citigroup Inc.,Finance,2021,5.4811,High
+FIN_C,Citigroup Inc.,Finance,2022,4.8316,High
+FIN_C,Citigroup Inc.,Finance,2023,4.176,High
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2019,3.3519,Moderate
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2020,1.8447,Moderate
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2021,1.1931,Low
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2022,1.3111,Low
+FIN_GS,The Goldman Sachs Group Inc.,Finance,2023,1.1588,Low
+FIN_JPM,JPMorgan Chase & Co.,Finance,2019,2.5147,Moderate
+FIN_JPM,JPMorgan Chase & Co.,Finance,2020,2.0092,Moderate
+FIN_JPM,JPMorgan Chase & Co.,Finance,2021,1.9893,Moderate
+FIN_JPM,JPMorgan Chase & Co.,Finance,2022,1.7639,Low
+FIN_JPM,JPMorgan Chase & Co.,Finance,2023,1.3029,Low
+FIN_WFC,Wells Fargo and Company,Finance,2019,6.7597,High
+FIN_WFC,Wells Fargo and Company,Finance,2020,8.2236,High
+FIN_WFC,Wells Fargo and Company,Finance,2021,5.3381,High
+FIN_WFC,Wells Fargo and Company,Finance,2022,5.0416,High
+FIN_WFC,Wells Fargo and Company,Finance,2023,3.9348,Moderate
+HLTH_ABBV,AbbVie Inc.,Healthcare,2019,11.1225,Moderate
+HLTH_ABBV,AbbVie Inc.,Healthcare,2020,7.2919,Moderate
+HLTH_ABBV,AbbVie Inc.,Healthcare,2021,6.1925,Moderate
+HLTH_ABBV,AbbVie Inc.,Healthcare,2022,5.8566,Moderate
+HLTH_ABBV,AbbVie Inc.,Healthcare,2023,5.9281,Moderate
+HLTH_ABT,Abbott Laboratories,Healthcare,2019,45.4488,High
+HLTH_ABT,Abbott Laboratories,Healthcare,2020,38.4304,High
+HLTH_ABT,Abbott Laboratories,Healthcare,2021,32.5015,High
+HLTH_ABT,Abbott Laboratories,Healthcare,2022,30.9257,Moderate
+HLTH_ABT,Abbott Laboratories,Healthcare,2023,31.913,Moderate
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2019,9.1413,Moderate
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2020,4.892,Low
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2021,4.7429,Low
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2022,4.6145,Low
+HLTH_BMY,Bristol-Myers Squibb Company,Healthcare,2023,4.3994,Low
+HLTH_CVS,CVS Health Corporation,Healthcare,2019,348.3285,High
+HLTH_CVS,CVS Health Corporation,Healthcare,2020,303.1957,High
+HLTH_CVS,CVS Health Corporation,Healthcare,2021,306.2195,High
+HLTH_CVS,CVS Health Corporation,Healthcare,2022,314.0645,High
+HLTH_CVS,CVS Health Corporation,Healthcare,2023,311.7862,High
+HLTH_JNJ,Johnson & Johnson,Healthcare,2021,5.1176,Low
+HLTH_JNJ,Johnson & Johnson,Healthcare,2022,4.6246,Low
+HLTH_JNJ,Johnson & Johnson,Healthcare,2023,5.4454,Low
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2019,94.0671,High
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2020,81.1696,High
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2021,65.0871,High
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2022,49.7613,High
+HLTH_MRK,Merck & Co. Inc.,Healthcare,2023,45.5793,High
+HLTH_PFE,Pfizer Inc.,Healthcare,2019,27.2464,Moderate
+HLTH_PFE,Pfizer Inc.,Healthcare,2020,27.9183,Moderate
+HLTH_PFE,Pfizer Inc.,Healthcare,2021,13.0401,Moderate
+HLTH_PFE,Pfizer Inc.,Healthcare,2022,10.5153,Moderate
+HLTH_PFE,Pfizer Inc.,Healthcare,2023,19.4446,Moderate
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2019,1.0035,Low
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2020,0.7739,Low
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2021,0.6606,Low
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2022,0.5244,Low
+HLTH_UNH,UnitedHealth Group Incorporated,Healthcare,2023,0.3848,Low
+IND_CAT,Caterpillar Inc.,Industrials,2019,36.6171,Low
+IND_CAT,Caterpillar Inc.,Industrials,2020,38.0857,Moderate
+IND_CAT,Caterpillar Inc.,Industrials,2021,33.9409,Low
+IND_CAT,Caterpillar Inc.,Industrials,2022,29.4479,Low
+IND_CAT,Caterpillar Inc.,Industrials,2023,24.754,Low
+IND_GE,GE Vernova Inc.,Industrials,2019,41.2754,Moderate
+IND_GE,GE Vernova Inc.,Industrials,2020,42.9546,Moderate
+IND_GE,GE Vernova Inc.,Industrials,2021,43.6681,Moderate
+IND_GE,GE Vernova Inc.,Industrials,2022,39.71,Moderate
+IND_GE,GE Vernova Inc.,Industrials,2023,41.793,Moderate
+IND_HON,Honeywell International Inc.,Industrials,2019,78.1825,High
+IND_HON,Honeywell International Inc.,Industrials,2020,76.6002,High
+IND_HON,Honeywell International Inc.,Industrials,2021,69.7837,High
+IND_HON,Honeywell International Inc.,Industrials,2022,64.005,Moderate
+IND_HON,Honeywell International Inc.,Industrials,2023,64.2249,Moderate
+IND_LMT,Lockheed Martin Corporation,Industrials,2021,10.3579,Low
+IND_LMT,Lockheed Martin Corporation,Industrials,2022,10.701,Low
+IND_LMT,Lockheed Martin Corporation,Industrials,2023,10.0161,Low
+IND_MMM,3M Company,Industrials,2019,178.6159,High
+IND_MMM,3M Company,Industrials,2020,158.7745,High
+IND_MMM,3M Company,Industrials,2021,149.9081,High
+IND_MMM,3M Company,Industrials,2022,187.3017,High
+IND_MMM,3M Company,Industrials,2023,180.4145,High
+MAT_AA,Alcoa Corporation,Materials,2019,4111.9525,High
+MAT_AA,Alcoa Corporation,Materials,2020,3855.266,High
+MAT_AA,Alcoa Corporation,Materials,2021,3135.2864,Moderate
+MAT_AA,Alcoa Corporation,Materials,2022,2979.6803,Moderate
+MAT_AA,Alcoa Corporation,Materials,2023,3307.7433,Moderate
+MAT_STLD,Steel Dynamics Inc.,Materials,2019,612.8451,Low
+MAT_STLD,Steel Dynamics Inc.,Materials,2020,634.0744,Low
+MAT_STLD,Steel Dynamics Inc.,Materials,2021,462.6242,Low
+MAT_STLD,Steel Dynamics Inc.,Materials,2022,5022.9508,High
+MAT_STLD,Steel Dynamics Inc.,Materials,2023,4824.7978,High
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2019,25.7445,High
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2020,17.3426,Moderate
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2021,20.7363,High
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2022,20.6958,High
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,2023,19.5505,High
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2019,3.7804,Moderate
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2020,2.6324,Moderate
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2021,2.411,Low
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2022,2.3754,Low
+MEDIA_NFLX,Netflix Inc.,Media & Entertainment,2023,2.0579,Low
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2019,1004.3212,High
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2020,905.4268,High
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2021,665.4179,Moderate
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2022,685.8322,High
+MINE_FCX,Freeport-McMoRan Inc.,Mining & Metals,2023,673.9197,High
+MINE_NUE,Nucor Corporation,Mining & Metals,2019,436.4976,Moderate
+MINE_NUE,Nucor Corporation,Mining & Metals,2020,422.052,Moderate
+MINE_NUE,Nucor Corporation,Mining & Metals,2021,296.8433,Low
+MINE_NUE,Nucor Corporation,Mining & Metals,2022,274.1376,Low
+MINE_NUE,Nucor Corporation,Mining & Metals,2023,300.7432,Low
+REIT_CBRE,CBRE Group Inc.,Real Estate,2019,5.4137,Low
+REIT_CBRE,CBRE Group Inc.,Real Estate,2020,4.4022,Low
+REIT_CBRE,CBRE Group Inc.,Real Estate,2021,4.1558,Low
+REIT_CBRE,CBRE Group Inc.,Real Estate,2022,3.6124,Low
+REIT_CBRE,CBRE Group Inc.,Real Estate,2023,2.9837,Low
+REIT_PLD,Prologis Inc.,Real Estate,2019,79.265,High
+REIT_PLD,Prologis Inc.,Real Estate,2020,51.5917,Moderate
+REIT_PLD,Prologis Inc.,Real Estate,2021,43.0727,Moderate
+REIT_PLD,Prologis Inc.,Real Estate,2022,30.1321,Moderate
+REIT_PLD,Prologis Inc.,Real Estate,2023,19.4429,Moderate
+REIT_SPG,Simon Property Group Inc.,Real Estate,2019,75.7576,High
+REIT_SPG,Simon Property Group Inc.,Real Estate,2020,72.0564,High
+REIT_SPG,Simon Property Group Inc.,Real Estate,2021,71.9199,High
+REIT_SPG,Simon Property Group Inc.,Real Estate,2022,73.8935,High
+REIT_SPG,Simon Property Group Inc.,Real Estate,2023,63.441,Moderate
+RETL_WMT,Walmart Inc.,Retail & Consumer,2019,36.5059,High
+RETL_WMT,Walmart Inc.,Retail & Consumer,2020,33.774,High
+RETL_WMT,Walmart Inc.,Retail & Consumer,2021,30.2396,High
+RETL_WMT,Walmart Inc.,Retail & Consumer,2022,28.2337,Moderate
+RETL_WMT,Walmart Inc.,Retail & Consumer,2023,25.2525,Moderate
+RET_TGT,Target Corporation,Retail & Consumer,2019,54.6738,High
+RET_TGT,Target Corporation,Retail & Consumer,2020,47.4959,High
+RET_TGT,Target Corporation,Retail & Consumer,2021,36.1262,High
+RET_TGT,Target Corporation,Retail & Consumer,2022,29.3382,High
+RET_TGT,Target Corporation,Retail & Consumer,2023,26.0264,Moderate
+TECH_AAPL,Apple Inc.,Technology,2019,0.2027,Low
+TECH_AAPL,Apple Inc.,Technology,2020,0.1728,Low
+TECH_AAPL,Apple Inc.,Technology,2021,0.1585,Low
+TECH_AAPL,Apple Inc.,Technology,2022,0.1476,Low
+TECH_AAPL,Apple Inc.,Technology,2023,0.1529,Low
+TECH_AMZN,Amazon.com Inc.,Technology,2019,40.1395,High
+TECH_AMZN,Amazon.com Inc.,Technology,2020,38.5687,High
+TECH_AMZN,Amazon.com Inc.,Technology,2021,34.4386,High
+TECH_AMZN,Amazon.com Inc.,Technology,2022,31.2851,High
+TECH_AMZN,Amazon.com Inc.,Technology,2023,29.5415,High
+TECH_CRM,Salesforce Inc.,Technology,2019,3.1622,Moderate
+TECH_CRM,Salesforce Inc.,Technology,2020,1.8131,Low
+TECH_CRM,Salesforce Inc.,Technology,2021,1.0917,Low
+TECH_CRM,Salesforce Inc.,Technology,2022,0.7323,Low
+TECH_CRM,Salesforce Inc.,Technology,2023,0.5327,Low
+TECH_GOOGL,Alphabet Inc.,Technology,2019,5.668,High
+TECH_GOOGL,Alphabet Inc.,Technology,2020,5.2989,Moderate
+TECH_GOOGL,Alphabet Inc.,Technology,2021,7.325,High
+TECH_GOOGL,Alphabet Inc.,Technology,2022,9.1339,High
+TECH_GOOGL,Alphabet Inc.,Technology,2023,11.3951,High
+TECH_HPQ,HP Inc.,Technology,2022,2.4054,Low
+TECH_HPQ,HP Inc.,Technology,2023,2.7253,Moderate
+TECH_IBM,International Business Machines Corp,Technology,2019,6.0923,High
+TECH_IBM,International Business Machines Corp,Technology,2020,4.89,Moderate
+TECH_IBM,International Business Machines Corp,Technology,2021,4.7602,Moderate
+TECH_IBM,International Business Machines Corp,Technology,2022,3.7832,Moderate
+TECH_IBM,International Business Machines Corp,Technology,2023,3.0068,Moderate
+TECH_INTC,Intel Corporation,Technology,2019,21.8162,High
+TECH_INTC,Intel Corporation,Technology,2020,16.952,High
+TECH_INTC,Intel Corporation,Technology,2021,18.9816,High
+TECH_INTC,Intel Corporation,Technology,2022,24.2649,High
+TECH_INTC,Intel Corporation,Technology,2023,16.4675,High
+TECH_META,Meta Platforms Inc.,Technology,2019,3.5645,Moderate
+TECH_META,Meta Platforms Inc.,Technology,2020,0.442,Low
+TECH_META,Meta Platforms Inc.,Technology,2021,0.4889,Low
+TECH_META,Meta Platforms Inc.,Technology,2022,0.5763,Low
+TECH_META,Meta Platforms Inc.,Technology,2023,0.3752,Low
+TECH_MSFT,Microsoft Corporation,Technology,2019,4.563,Moderate
+TECH_MSFT,Microsoft Corporation,Technology,2020,3.8675,Moderate
+TECH_MSFT,Microsoft Corporation,Technology,2021,2.543,Moderate
+TECH_MSFT,Microsoft Corporation,Technology,2022,2.7139,Moderate
+TECH_MSFT,Microsoft Corporation,Technology,2023,1.8998,Low
+TECH_NVDA,NVIDIA Corporation,Technology,2021,4.391,Moderate
+TECH_NVDA,NVIDIA Corporation,Technology,2022,3.0773,Moderate
+TECH_NVDA,NVIDIA Corporation,Technology,2023,2.7069,Moderate
+TRAN_FDX,FedEx Corporation,Transportation,2019,306.774,Moderate
+TRAN_FDX,FedEx Corporation,Transportation,2020,288.8019,Moderate
+TRAN_FDX,FedEx Corporation,Transportation,2021,259.1741,Moderate
+TRAN_FDX,FedEx Corporation,Transportation,2022,237.0819,Moderate
+TRAN_FDX,FedEx Corporation,Transportation,2023,238.9219,Moderate
+TRAN_LUV,Southwest Airlines Co.,Transportation,2019,630.5511,High
+TRAN_LUV,Southwest Airlines Co.,Transportation,2020,864.5004,High
+TRAN_LUV,Southwest Airlines Co.,Transportation,2021,660.5446,High
+TRAN_LUV,Southwest Airlines Co.,Transportation,2022,555.9335,High
+TRAN_LUV,Southwest Airlines Co.,Transportation,2023,530.4894,High
+TRAN_UPS,United Parcel Service Inc.,Transportation,2019,223.23,Low
+TRAN_UPS,United Parcel Service Inc.,Transportation,2020,180.3186,Low
+TRAN_UPS,United Parcel Service Inc.,Transportation,2021,170.8347,Low
+TRAN_UPS,United Parcel Service Inc.,Transportation,2022,168.7297,Low
+TRAN_UPS,United Parcel Service Inc.,Transportation,2023,178.1042,Low
+UTIL_D,Dominion Energy Inc.,Utilities,2019,1695.1619,Moderate
+UTIL_D,Dominion Energy Inc.,Utilities,2020,1639.7615,Moderate
+UTIL_D,Dominion Energy Inc.,Utilities,2021,1878.0551,Moderate
+UTIL_D,Dominion Energy Inc.,Utilities,2022,1412.177,Moderate
+UTIL_D,Dominion Energy Inc.,Utilities,2023,1422.8516,Moderate
+UTIL_DUK,Duke Energy Corporation,Utilities,2019,3643.0097,High
+UTIL_DUK,Duke Energy Corporation,Utilities,2020,3470.5199,High
+UTIL_DUK,Duke Energy Corporation,Utilities,2021,3387.6501,High
+UTIL_DUK,Duke Energy Corporation,Utilities,2022,2747.3409,High
+UTIL_DUK,Duke Energy Corporation,Utilities,2023,2563.9953,High
+UTIL_EXC,Exelon Corporation,Utilities,2019,804.7093,Low
+UTIL_EXC,Exelon Corporation,Utilities,2020,723.6382,Low
+UTIL_EXC,Exelon Corporation,Utilities,2021,533.8592,Low
+UTIL_EXC,Exelon Corporation,Utilities,2022,798.7536,Low
+UTIL_EXC,Exelon Corporation,Utilities,2023,617.3179,Low
+UTIL_NEE,NextEra Energy Inc.,Utilities,2019,866.8571,Moderate
+UTIL_NEE,NextEra Energy Inc.,Utilities,2020,847.0588,Moderate
+UTIL_NEE,NextEra Energy Inc.,Utilities,2021,719.1489,Low
+UTIL_NEE,NextEra Energy Inc.,Utilities,2022,540.8696,Low
+UTIL_NEE,NextEra Energy Inc.,Utilities,2023,463.7097,Low
+UTIL_SO,Southern Company,Utilities,2019,3932.023,High
+UTIL_SO,Southern Company,Utilities,2020,3709.4479,High
+UTIL_SO,Southern Company,Utilities,2021,3150.6079,High
+UTIL_SO,Southern Company,Utilities,2022,2389.4259,Moderate
+UTIL_SO,Southern Company,Utilities,2023,2584.2474,High

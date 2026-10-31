@@ -1,0 +1,21 @@
+company_id,company_name,sector,pledge_title,pledge_type,baseline_year,target_year,target_reduction_pct,baseline_emissions_tco2e,actual_2023_emissions_tco2e,required_annual_reduction_pct,actual_annual_reduction_pct,pledge_gap_pct_pts,pledge_status,projected_target_year_emissions_tco2e,absolute_gap_at_target_year_tco2e
+TECH_MSFT,Microsoft Corporation,Technology,Carbon Negative Operations and Value Chain,net-zero,2020,2030,100.0,553109.0,402600.0,20.57,10.05,10.52,Severe Deficit,191876.1,191876.1
+TECH_AAPL,Apple Inc.,Technology,100% Carbon Neutral for Supply Chain and Products,carbon-neutral,2019,2030,100.0,52730.0,58600.0,18.89,-2.67,21.56,Severe Deficit,70488.35,70488.35
+TECH_GOOGL,Alphabet Inc.,Technology,24/7 Carbon-Free Energy and Net-Zero Operations,carbon-neutral,2019,2030,100.0,917400.0,3502800.0,18.89,-39.79,58.67,Severe Deficit,12551165.71,12551165.71
+TECH_AMZN,Amazon.com Inc.,Technology,The Climate Pledge: Net-Zero Carbon Across Operations,net-zero,2019,2040,100.0,11260000.0,16980000.0,10.38,-10.82,21.2,Severe Deficit,97304895.67,97304895.67
+TECH_META,Meta Platforms Inc.,Technology,Net Zero Emissions Across Value Chain,net-zero,2020,2030,100.0,38000.0,50610.0,20.57,-10.02,30.59,Severe Deficit,98770.23,98770.23
+AUTO_F,Ford Motor Company,Automotive,Carbon Neutrality in Facilities and Products,carbon-neutral,2019,2050,100.0,4330000.0,3310000.0,7.16,6.49,0.66,Minor Deficit,539975.0,539975.0
+AUTO_GM,General Motors Company,Automotive,Carbon Neutral in Global Products and Operations,carbon-neutral,2020,2040,100.0,3400000.0,2700000.0,10.87,7.4,3.48,Minor Deficit,731214.11,731214.11
+ENG_XOM,ExxonMobil Corporation,Energy,Net Zero Scope 1 and 2 GHG for Operated Assets,net-zero,2019,2050,100.0,109000000.0,97000000.0,7.16,2.87,4.28,Minor Deficit,44142007.42,44142007.42
+ENG_CVX,Chevron Corporation,Energy,Net Zero Upstream Scope 1 and 2 Emissions,net-zero,2019,2050,100.0,60000000.0,54600000.0,7.16,2.33,4.83,Minor Deficit,28888303.68,28888303.68
+RETL_WMT,Walmart Inc.,Retail & Consumer,Zero Emissions in Global Operations Without Carbon Offsets,net-zero,2019,2040,100.0,18630000.0,15300000.0,10.38,4.8,5.58,Severe Deficit,6625602.52,6625602.52
+CONS_UL,Unilever PLC,Consumer Staples,Net Zero Emissions Across Value Chain From Sourcing to Point of Sale,net-zero,2019,2039,100.0,4850000.0,3380000.0,10.87,8.63,2.24,Minor Deficit,797290.42,797290.42
+HLTH_JNJ,Johnson & Johnson,Healthcare,Carbon Neutrality Across Global Operations,carbon-neutral,2021,2030,100.0,479900.0,463726.0,22.57,1.7,20.87,Severe Deficit,411290.69,411290.69
+HLTH_PFE,Pfizer Inc.,Healthcare,Net Zero Standard for Direct Operations and Value Chain,net-zero,2019,2040,100.0,1410000.0,990000.0,10.38,8.46,1.92,Minor Deficit,220243.72,220243.72
+FIN_JPM,JPMorgan Chase & Co.,Finance,Carbon Neutral in Internal Operations and Branch Footprint,carbon-neutral,2019,2030,100.0,291000.0,206000.0,18.89,8.27,10.61,Severe Deficit,112543.94,112543.94
+FIN_GS,The Goldman Sachs Group Inc.,Finance,Net Zero Across Corporate Facilities and Supply Chain,net-zero,2019,2030,100.0,122500.0,53600.0,18.89,18.67,0.22,Minor Deficit,12617.26,12617.26
+FIN_BAC,Bank of America Corporation,Finance,Net Zero GHG Operations and Sustainable Financing,net-zero,2019,2050,100.0,229000.0,76000.0,7.16,24.1,-16.94,On-Track,44.4,44.4
+REIT_PLD,Prologis Inc.,Real Estate,Net Zero Emissions Across Global Logistics Value Chain,net-zero,2019,2040,100.0,264000.0,156000.0,10.38,12.32,-1.94,On-Track,16675.83,16675.83
+MEDIA_DIS,The Walt Disney Company,Media & Entertainment,Net Zero Direct Operational Emissions Across Parks and Studios,net-zero,2019,2030,100.0,1792000.0,1738000.0,18.89,0.76,18.12,Severe Deficit,1647385.97,1647385.97
+TECH_INTC,Intel Corporation,Technology,Net-Zero Greenhouse Gas Emissions Across Global Operations,net-zero,2019,2040,100.0,1570000.0,893000.0,10.38,13.16,-2.77,On-Track,81170.2,81170.2
+AERO_BA,The Boeing Company,Aerospace & Defense,Operational Climate Neutrality Across Manufacturing Facilities,carbon-neutral,2019,2030,100.0,3870000.0,3230000.0,18.89,4.42,14.47,Severe Deficit,2354034.09,2354034.09
