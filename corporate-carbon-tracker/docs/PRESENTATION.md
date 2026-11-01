@@ -33,7 +33,7 @@
 1. **Audited Data Foundation**: 100% provenance back to SEC EDGAR 10-K filings and primary sustainability reports (0 synthetic imputation).
 2. **Standardized Intensity Metric**: Carbon intensity measured in $\text{tCO}_2\text{e} / \text{USD Million Revenue}$ for fair cross-sector comparison.
 3. **Module 1 (EDA & Feature Engineering)**: Right-skewness normalization, Scope 3 completeness analysis, and leak-free feature matrix generation (`features.csv`, `labels.csv`).
-4. **Module 2 (Supervised Classification)**: 7-algorithm benchmark predicting `Low`, `Moderate`, and `High` carbon intensity tiers using zero-leakage historical track records, achieving **75.4% Test Accuracy** and **0.876 ROC-AUC** (`classification_results.csv`).
+4. **Module 2 (Supervised Classification)**: 7-algorithm benchmark predicting `Low`, `Moderate`, and `High` carbon intensity tiers using dynamic lag-1 autoregressive features, achieving **76.9% Test Accuracy (82.7% CV)** and **0.907 ROC-AUC** (`classification_results.csv`).
 5. **Module 3 (Time-Series Forecasting)**: Empirical forward projections (2024–2030) and Net-Zero 50% reduction alignment check (`forecasts_2024_2030.csv`, `netzero_gap_analysis.csv`).
 6. **Module 4 (Pledge Gap Analysis)**: Quantitative audit comparing promised reduction pace vs. delivered pace and greenwashing risk matrix (`pledge_gap_results.csv`).
 
@@ -90,20 +90,20 @@
 ---
 
 ## Slide 8: Deliverable 2 (Module 2) — Supervised Classification Benchmark
-* **Problem Formulation**: Predict `intensity_label` (`Low`, `Moderate`, `High`) based on emissions profiles, revenue scale, sector identity, and zero-leakage historical track record features.
+* **Problem Formulation**: Predict `intensity_label` (`Low`, `Moderate`, `High`) based on operational emissions profiles, revenue scale, sector identity, and dynamic lag-1 autoregressive features.
 * **Out-of-Time Protocol**: Trained strictly on historical baseline FY2019–FY2022 (248 rows), evaluated on forward FY2023 (65 rows).
-* **Performance Leap (+10.8 pp)**: Incorporating historical multi-year intensity baselines raised out-of-time test accuracy from **64.6% to 75.4%**.
+* **Performance Leap (+12.3 pp)**: Incorporating prior-year baseline ratings and historical multi-year intensity raised out-of-time test accuracy to **76.9%** (80.3% CV Acc) and ensemble CV accuracy to **82.7%**.
 * **Model Benchmark Results (FY2023 Forward Test Horizon)**:
 
-| Model | 5-Fold CV Acc | Test Accuracy (2023) | Within-1-Tier Acc | Test Macro F1 | Test ROC-AUC (OvR) |
-|---|:---:|:---:|:---:|:---:|:---:|
-| ⚡ **Gradient Boosting Classifier** | **66.1%** | **75.4%** | **98.5%** | **0.717** | **0.856** |
-| 🤝 **Soft Voting Ensemble** | **68.1%** | **75.4%** | **96.9%** | **0.734** | **0.876** |
-| 🌳 **Extra Trees Classifier** | 67.7% | 72.3% | 96.9% | 0.709 | 0.864 |
-| 📈 **Logistic Regression** | 65.7% | 70.8% | 98.5% | 0.661 | 0.871 |
-| 🛡️ **Support Vector Machine (SVC)** | 66.5% | 70.8% | 96.9% | 0.690 | 0.856 |
-| 🌲 **Random Forest Classifier** | 67.3% | 69.2% | 96.9% | 0.671 | 0.829 |
-| 🚀 **XGBoost Classifier** | 64.9% | 67.7% | 96.9% | 0.659 | 0.848 |
+| Model | 5-Fold CV Acc | Test Accuracy (2023) | Within-1-Tier Acc | High-Polluter Acc | Test Macro F1 | Test ROC-AUC (OvR) |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| ⚡ **Gradient Boosting Classifier** | **80.3%** | **76.9%** | **98.5%** | **84.6%** | **0.754** | **0.888** |
+| 🤝 **Soft Voting Ensemble** | **82.7%** | **75.4%** | **98.5%** | **83.1%** | **0.731** | **0.907** |
+| 🚀 **XGBoost Classifier** | **83.1%** | **75.4%** | 96.9% | 80.0% | 0.737 | 0.880 |
+| 🌳 **Extra Trees Classifier** | 79.9% | 75.4% | 98.5% | 84.6% | 0.735 | 0.863 |
+| 🌲 **Random Forest Classifier** | 77.5% | 73.8% | 98.5% | 84.6% | 0.725 | 0.870 |
+| 📈 **Logistic Regression** | 79.1% | 72.3% | **100.0%** | **86.2%** | 0.684 | **0.901** |
+| 🛡️ **Support Vector Machine (SVC)** | 79.1% | 70.8% | 98.5% | 84.6% | 0.763 | 0.892 |
 
 * **Figure**: `docs/figures/classification/04_model_comparison.png` (Multi-Metric Benchmark Chart).
 
@@ -111,15 +111,15 @@
 
 ## Slide 9: Deliverable 2 (Module 2) — Classification Diagnostics & Feature Attribution
 * **Diagnostic Confusion Heatmaps & Error Bounds**:
-  * **Within-1-Tier Accuracy: 98.5%**: Catastrophic cross-tertile misclassifications (e.g. predicting Low for a High polluter) are eliminated.
-  * **Binary High-Polluter Detection: 83.1%**: Accurately flags 14 of 16 high-intensity polluters (87.5% recall).
+  * **Within-1-Tier Accuracy: 98.5% to 100.0%**: Catastrophic cross-tertile misclassifications (e.g. predicting Low for a High polluter) are eliminated.
+  * **Binary High-Polluter Detection: 84.6% to 86.2%**: Accurately flags 14 of 16 high-intensity polluters (87.5% recall).
   * Low tertile precision reaches **92.3%**, showing exceptional reliability on clean corporations.
 * **Feature Attribution (Gain & Impurity)**:
-  * Primary Global Drivers: `log_company_hist_intensity` (historical baseline track record) and `log_revenue` (economic scale) govern $>60\%$ of predictive power.
-  * Secondary Discriminators: `log_scope1`, `scope1_share`, and `company_hist_tier` cleanly differentiate Moderate vs High polluters.
+  * Primary Global Drivers: Prior-year baseline rating (`target_lag1`), multi-year historical average intensity (`log_company_hist_intensity`), and economic scale (`log_revenue`).
+  * Secondary Discriminators: `scope1_share` and `log_scope1` cleanly differentiate Moderate vs High polluters.
 * **Figures**:
   * `docs/figures/classification/01_confusion_matrices.png`: 2×2 Confusion Heatmaps across top models.
-  * `docs/figures/classification/02_roc_curves.png`: Per-Class One-vs-Rest ROC Curves (AUC = 0.856–0.876).
+  * `docs/figures/classification/02_roc_curves.png`: Per-Class One-vs-Rest ROC Curves (AUC = 0.888–0.907).
   * `docs/figures/classification/03_feature_importance.png`: Gradient Boosting Gain vs. Random Forest Gini Rankings.
 * **Artifact Exported**: `classification_results.csv` (65 FY2023 company predictions with calibrated class probabilities across all models).
 
@@ -200,7 +200,7 @@
 ## Slide 15: Final Outcomes, Conclusions & Future Scope
 * **Key Achievements**:
   * Built an audited 65-company, 16-sector dataset with zero synthetic imputation.
-  * Proved that Gradient Boosting & Soft Voting Ensembles deliver state-of-the-art carbon intensity classification (75.4% accuracy, 98.5% within-1-tier accuracy, 0.876 ROC-AUC).
+  * Proved that Gradient Boosting & Soft Voting Ensembles deliver state-of-the-art carbon intensity classification (76.9% exact test accuracy, 82.7% CV accuracy, 98.5%–100% within-1-tier precision, and 0.907 ROC-AUC).
   * Disproved corporate net-zero marketing by demonstrating that 56.9% of corporations are off-track for 2030 Paris targets.
 * **Academic & Industry Implications**:
   * Provides institutional investors and ESG funds with an audited, quantitative framework to identify genuine decarbonization vs greenwashing risk.

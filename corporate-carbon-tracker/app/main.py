@@ -164,7 +164,7 @@ if page == "📊 Executive Overview & Sector KPIs":
     with col3:
         st.markdown(f'<div class="metric-card"><div class="metric-value">{total_sectors}</div><div class="metric-label">Global Sectors</div></div>', unsafe_allow_html=True)
     with col4:
-        st.markdown(f'<div class="metric-card"><div class="metric-value" style="color: #2563eb;">75.4%</div><div class="metric-label">ML Test Accuracy</div></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="metric-card"><div class="metric-value" style="color: #2563eb;">76.9%</div><div class="metric-label">ML Test Accuracy (82.7% CV)</div></div>', unsafe_allow_html=True)
     with col5:
         st.markdown(f'<div class="metric-card"><div class="metric-value" style="color: #dc2626;">56.9%</div><div class="metric-label">Off-Track Net-Zero</div></div>', unsafe_allow_html=True)
 
@@ -319,26 +319,25 @@ elif page == "🤖 ML Carbon Intensity Classifier":
     # Benchmark Cards
     m1, m2, m3, m4 = st.columns(4)
     with m1:
-        st.markdown('<div class="metric-card"><div class="metric-value">75.4%</div><div class="metric-label">Gradient Boosting Test Acc</div></div>', unsafe_allow_html=True)
+        st.markdown('<div class="metric-card"><div class="metric-value">76.9%</div><div class="metric-label">GBM Test Acc (80.3% CV)</div></div>', unsafe_allow_html=True)
     with m2:
         st.markdown('<div class="metric-card"><div class="metric-value" style="color: #2563eb;">98.5%</div><div class="metric-label">Within-1-Tier Accuracy</div></div>', unsafe_allow_html=True)
     with m3:
-        st.markdown('<div class="metric-card"><div class="metric-value" style="color: #7c3aed;">0.876</div><div class="metric-label">Ensemble ROC-AUC (OvR)</div></div>', unsafe_allow_html=True)
+        st.markdown('<div class="metric-card"><div class="metric-value" style="color: #7c3aed;">0.907</div><div class="metric-label">Ensemble ROC-AUC (OvR)</div></div>', unsafe_allow_html=True)
     with m4:
-        st.markdown('<div class="metric-card"><div class="metric-value" style="color: #059669;">83.1%</div><div class="metric-label">High-Polluter Detection</div></div>', unsafe_allow_html=True)
+        st.markdown('<div class="metric-card"><div class="metric-value" style="color: #059669;">86.2%</div><div class="metric-label">High-Polluter Detection</div></div>', unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
     # Model Leaderboard
     st.subheader("Model Benchmark Leaderboard (FY2023 Holdout Horizon, n = 65)")
     leaderboard_data = [
-        {"Model": "⚡ Gradient Boosting Classifier", "CV Acc (5-Fold)": "66.1%", "Test Accuracy": "75.4%", "Within-1-Tier": "98.5%", "Macro F1": "0.717", "ROC-AUC": "0.856"},
-        {"Model": "🤝 Soft Voting Ensemble", "CV Acc (5-Fold)": "68.1%", "Test Accuracy": "75.4%", "Within-1-Tier": "96.9%", "Macro F1": "0.734", "ROC-AUC": "0.876"},
-        {"Model": "🌳 Extra Trees Classifier", "CV Acc (5-Fold)": "67.7%", "Test Accuracy": "72.3%", "Within-1-Tier": "96.9%", "Macro F1": "0.709", "ROC-AUC": "0.864"},
-        {"Model": "📈 Logistic Regression", "CV Acc (5-Fold)": "65.7%", "Test Accuracy": "70.8%", "Within-1-Tier": "98.5%", "Macro F1": "0.661", "ROC-AUC": "0.871"},
-        {"Model": "🛡️ Support Vector Machine (SVC)", "CV Acc (5-Fold)": "66.5%", "Test Accuracy": "70.8%", "Within-1-Tier": "96.9%", "Macro F1": "0.690", "ROC-AUC": "0.856"},
-        {"Model": "🌲 Random Forest Classifier", "CV Acc (5-Fold)": "67.3%", "Test Accuracy": "69.2%", "Within-1-Tier": "96.9%", "Macro F1": "0.671", "ROC-AUC": "0.829"},
-        {"Model": "🚀 XGBoost Classifier", "CV Acc (5-Fold)": "64.9%", "Test Accuracy": "67.7%", "Within-1-Tier": "96.9%", "Macro F1": "0.659", "ROC-AUC": "0.848"},
+        {"Model": "⚡ Gradient Boosting Classifier", "CV Acc (5-Fold)": "80.3%", "Test Accuracy": "76.9%", "Within-1-Tier": "98.5%", "High-Polluter Acc": "84.6%", "Macro F1": "0.754", "ROC-AUC": "0.888"},
+        {"Model": "🤝 Soft Voting Ensemble", "CV Acc (5-Fold)": "82.7%", "Test Accuracy": "75.4%", "Within-1-Tier": "98.5%", "High-Polluter Acc": "83.1%", "Macro F1": "0.731", "ROC-AUC": "0.907"},
+        {"Model": "🚀 XGBoost Classifier", "CV Acc (5-Fold)": "83.1%", "Test Accuracy": "75.4%", "Within-1-Tier": "96.9%", "High-Polluter Acc": "80.0%", "Macro F1": "0.737", "ROC-AUC": "0.880"},
+        {"Model": "🌳 Extra Trees Classifier", "CV Acc (5-Fold)": "79.9%", "Test Accuracy": "75.4%", "Within-1-Tier": "98.5%", "High-Polluter Acc": "84.6%", "Macro F1": "0.735", "ROC-AUC": "0.863"},
+        {"Model": "🌲 Random Forest Classifier", "CV Acc (5-Fold)": "77.5%", "Test Accuracy": "73.8%", "Within-1-Tier": "98.5%", "High-Polluter Acc": "84.6%", "Macro F1": "0.725", "ROC-AUC": "0.870"},
+        {"Model": "📈 Logistic Regression", "CV Acc (5-Fold)": "79.1%", "Test Accuracy": "72.3%", "Within-1-Tier": "100.0%", "High-Polluter Acc": "86.2%", "Macro F1": "0.684", "ROC-AUC": "0.901"},
     ]
     st.dataframe(pd.DataFrame(leaderboard_data), hide_index=True, use_container_width=True)
 
@@ -350,7 +349,7 @@ elif page == "🤖 ML Carbon Intensity Classifier":
         test_companies = sorted(df_clf['company_name'].unique())
         inspect_comp = st.selectbox("Select Corporation to Inspect Prediction:", test_companies)
     with col_model:
-        model_choice = st.selectbox("Select Model Architecture:", ["Gradient Boosting", "Soft Voting Ensemble", "Random Forest"])
+        model_choice = st.selectbox("Select Model Architecture:", ["Gradient Boosting", "Soft Voting Ensemble", "Random Forest", "Logistic Regression"])
 
     row = df_clf[df_clf['company_name'] == inspect_comp].iloc[0]
     actual_tier = row['actual_tier']
@@ -367,6 +366,12 @@ elif page == "🤖 ML Carbon Intensity Classifier":
         p_mod = row['prob_ens_moderate']
         p_high = row['prob_ens_high']
         is_correct = row['correct_ens']
+    elif model_choice == "Logistic Regression":
+        pred_tier = row['pred_lr_tier']
+        p_low = row['prob_lr_low']
+        p_mod = row['prob_lr_moderate']
+        p_high = row['prob_lr_high']
+        is_correct = row['correct_lr']
     else:
         pred_tier = row['pred_rf_tier']
         p_low = row['prob_rf_low']
